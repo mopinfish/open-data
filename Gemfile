@@ -36,6 +36,12 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'pg', '~> 0.18'
+gem 'foreman'
+
+gem 'jquery-rails'
+gem 'jquery-turbolinks'
+gem 'materialize-sass'
+gem 'material_icons'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
