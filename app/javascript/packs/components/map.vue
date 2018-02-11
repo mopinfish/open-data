@@ -48,8 +48,8 @@
         mapboxgl.accessToken = mapToken;
         this.map = new mapboxgl.Map({
           container: 'map',
-          style: 'mapbox://styles/mapbox/streets-v9', // stylesheet location
-          center: [139.6, 35.7],
+          style: 'mapbox://styles/mopinfish/cjdig1o651oxc2rmksb7qh0qb', // stylesheet location
+          center: [139.767052, 35.681167], // starting position [lng, lat]
           zoom: 12,
         });
 
