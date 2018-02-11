@@ -44,11 +44,12 @@
     },
     methods: {
       loadMap: function () {
-        mapboxgl.accessToken = '';
+        const mapToken = localStorage.getItem('map_token');
+        mapboxgl.accessToken = mapToken;
         this.map = new mapboxgl.Map({
           container: 'map',
-          style: 'mapbox://styles/oganyan/cjdi9hvzm0ggh2tnvdda7oac6',
-          center: [139.6, 35.7],
+          style: 'mapbox://styles/mopinfish/cjdig1o651oxc2rmksb7qh0qb', // stylesheet location
+          center: [139.767052, 35.681167], // starting position [lng, lat]
           zoom: 12,
         });
 
@@ -72,11 +73,12 @@
         });
       },
       fetchBusStops: function () {
-        axios.get('https://api-tokyochallenge.odpt.org/api/v4/odpt:BusroutePattern?odpt:operator=odpt.Operator:KantoBus&acl:consumerKey=').then((response) => {
+        const token = localStorage.getItem('token');
+        axios.get('https://api-tokyochallenge.odpt.org/api/v4/odpt:BusroutePattern?odpt:operator=odpt.Operator:KantoBus&acl:consumerKey=' + token).then((response) => {
           for(var i = 0; i < response.data.length; i++) {
             this.busroutePatterns.push(response.data[i]);
           }
-          axios.get('https://api-tokyochallenge.odpt.org/api/v4/odpt:BusstopPole?odpt:operator=odpt.Operator:KantoBus&acl:consumerKey=').then((response) => {
+          axios.get('https://api-tokyochallenge.odpt.org/api/v4/odpt:BusstopPole?odpt:operator=odpt.Operator:KantoBus&acl:consumerKey=' + token).then((response) => {
             for(var i = 0; i < response.data.length; i++) {
               this.busstopPoles.push(response.data[i]);
             }
