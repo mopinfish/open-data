@@ -1,13 +1,14 @@
 <template>
 <div>
-  <div id='map' style='width: 800px; height: 600px;'>
+  <div class='example-5'>
+    <select v-model='selected'>
+      <option v-for='option in options' v-bind:value='option'>
+        {{ option }}
+      </option>
+    </select>
   </div>
-  <div>
-    <ul id='bus'>
-      <li v-for='busStop in busStops'>
-        {{ busStop['geo:long'] }}
-      </li>
-    </ul>
+
+  <div id='map' style='width: 800px; height: 600px;'>
   </div>
 </div>
 
@@ -19,9 +20,23 @@
   export default {
     data: function () {
       return {
+        busroutePatterns: [],
+        busstopPoles: [],
+        options: [],
         busInfos: [],
+        selected: '',
         map: null
       }
+    },
+    watch: {
+      selected: function (val) {
+        for(var i = 0; i < this.busInfos.length; ++i) {
+          if (this.busInfos[i]['name'] == val) {
+            this.addBusRoutes(this.busInfos[i]['routes'])
+            this.addBusStops(this.busInfos[i]['routes'])
+          }
+        }
+      },
     },
     mounted() {
       this.loadMap();
@@ -29,7 +44,7 @@
     },
     methods: {
       loadMap: function () {
-        mapboxgl.accessToken = 'pk.eyJ1Ijoib2dhbnlhbiIsImEiOiJjamRpNHFjbjQxNzRsMnFuOXNjYnFvY3ozIn0.CelyeP1hYHkcf6-QH1KsmA';
+        mapboxgl.accessToken = '';
         this.map = new mapboxgl.Map({
           container: 'map',
           style: 'mapbox://styles/oganyan/cjdi9hvzm0ggh2tnvdda7oac6',
@@ -57,30 +72,37 @@
         });
       },
       fetchBusStops: function () {
-        axios.get('https://api-tokyochallenge.odpt.org/api/v4/odpt:BusstopPole?acl:consumerKey=7e73ec8599cf081fb1d03a51e34c571871b8a206fc607649562f3bacc0897f8d').then((response) => {
+        axios.get('https://api-tokyochallenge.odpt.org/api/v4/odpt:BusroutePattern?odpt:operator=odpt.Operator:KantoBus&acl:consumerKey=').then((response) => {
           for(var i = 0; i < response.data.length; i++) {
-            this.busInfos.push({
-              'long': response.data[i]['geo:long'],
-              'lat': response.data[i]['geo:lat'],
-              'title': response.data[i]['dc:title'],
-              'owl:sameAs': response.data[i]['owl:sameAs']
-            });
+            this.busroutePatterns.push(response.data[i]);
           }
-          this.addBusStops(this.busInfos);
-        }, (error) => {
-          console.log(error);
-        });
+          axios.get('https://api-tokyochallenge.odpt.org/api/v4/odpt:BusstopPole?odpt:operator=odpt.Operator:KantoBus&acl:consumerKey=').then((response) => {
+            for(var i = 0; i < response.data.length; i++) {
+              this.busstopPoles.push(response.data[i]);
+            }
 
-        axios.get('https://api-tokyochallenge.odpt.org/api/v4/odpt:Bus&acl:consumerKey=7e73ec8599cf081fb1d03a51e34c571871b8a206fc607649562f3bacc0897f8d').then((response) => {
-          for(var i = 0; i < response.data.length; i++) {
-            this.busLocations.push({
-              'long': response.data[i]['geo:long'],
-              'lat': response.data[i]['geo:lat'],
-              'title': response.data[i]['dc:title'],
-              'owl:sameAs': response.data[i]['owl:sameAs']
-            });
-          }
-          this.addBusStops(this.busInfos);
+            for(var i = 0; i < this.busroutePatterns.length; i++) {
+              var routes = []
+              for(var j = 0; j < this.busroutePatterns[i]['odpt:busstopPoleOrder'].length; j++) {
+                var location = [0, 0]
+                for(var k = 0; k < this.busstopPoles.length; k++) {
+                  if (this.busstopPoles[k]['owl:sameAs'] == this.busroutePatterns[i]['odpt:busstopPoleOrder'][j]['odpt:busstopPole']) {
+                    location[0] = this.busstopPoles[k]['geo:long']
+                    location[1] = this.busstopPoles[k]['geo:lat']
+                  }
+                }
+                routes.push(location)
+              }
+              this.busInfos.push({
+                'name': this.busroutePatterns[i]['odpt:busroute'],
+                'routes': routes
+              })
+              this.options.push(this.busroutePatterns[i]['odpt:busroute'])
+            }
+            console.log('ADD')
+          }, (error) => {
+            console.log(error);
+          });
         }, (error) => {
           console.log(error);
         });
@@ -91,12 +113,12 @@
           let feature = {
             'type': 'Feature',
             'properties': {
-              "description": "<p>" + busInfos[i]['title'] + "</p>",
+              // 'description': '<p>' + busInfos[i]['title'] + '</p>',
               'icon': 'theatre'
             },
             'geometry': {
               'type': 'Point',
-              'coordinates': [busInfos[i]['long'], busInfos[i]['lat']]
+              'coordinates': [busInfos[i][0], busInfos[i][1]]
             }
           }
           features.push(feature)
@@ -115,6 +137,31 @@
           'layout': {
             'icon-image': '{icon}-15',
             'icon-allow-overlap': true
+          }
+        });
+      },
+      addBusRoutes: function (coords) {
+        let id = this.map.addLayer({
+          'id': 'route',
+          'type': 'line',
+          'source': {
+            'type': 'geojson',
+            'data': {
+              'type': 'Feature',
+              'properties': {},
+              'geometry': {
+                'type': 'LineString',
+                'coordinates': coords
+              }
+            }
+          },
+          'layout': {
+            'line-join': 'round',
+            'line-cap': 'round'
+          },
+          'paint': {
+            'line-color': '#888',
+            'line-width': 8
           }
         });
       }
