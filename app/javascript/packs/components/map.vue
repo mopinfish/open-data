@@ -1,11 +1,41 @@
 <template>
 <div>
-  <div class='example-5'>
+  <div class="input-field col s12">
     <select v-model='selected'>
+      <option value="" disabled selected>Choose your option</option>
       <option v-for='option in options' v-bind:value='option'>
         {{ option }}
       </option>
     </select>
+    <label>aaaaaalize Disabled</label>
+    <span>selected : {{selected}}</span>
+  </div>
+<!--
+  <div class="input-field col s12">
+    <div class="select-wrapper">
+      <span class="caret">▼</span>
+      <input type="text" class="select-dropdown" readonly="true" data-activates="select-options-f8b87f79-2266-1315-1f9e-8d59a833e67d" value="Choose your option">
+        <ul id="select-options-f8b87f79-2266-1315-1f9e-8d59a833e67d" class="dropdown-content select-dropdown ">
+          <li class="disabled "><span>Choose your option</span></li>
+          <li v-for='option in options'><span>{{ option }}</span></li>
+        </ul> -->
+        <!-- <select v-model='selected'"> !-->
+<!--        <select data-select-id="f8b87f79-2266-1315-1f9e-8d59a833e67d" class="initialized">
+          <option value="" disabled="disabled" selected="selected">Choose your option</option>
+          <option v-for='option in options' v-bind:value='option'>{{ option }}</option>
+        </select>
+    </div>
+  <label>sddsrialize Select</label>
+  </div>
+-->
+  <div class="input-field col s12">
+    <select>
+      <option value="" disabled selected>Choose your option</option>
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </select>
+    <label>bbbberialize Select</label>
   </div>
 
   <div id='map' style='width: 800px; height: 600px;'>
@@ -41,7 +71,17 @@
     mounted() {
       this.loadMap();
       this.fetchBusStops();
-    },
+        $(document).ready(function() {
+          $('select').material_select();
+        });
+      $('select').on('change', function() {
+          var event = new CustomEvent('change', {
+            detail: 'change',
+            bubbles: true
+          });
+          $(this).get(0).dispatchEvent(event);
+        });
+      },
     methods: {
       loadMap: function () {
         const mapToken = localStorage.getItem('map_token');
@@ -102,6 +142,7 @@
               this.options.push(this.busroutePatterns[i]['odpt:busroute'])
             }
             console.log('ADD')
+            setTimeout(this.setSelect, 2000);
           }, (error) => {
             console.log(error);
           });
@@ -165,6 +206,11 @@
             'line-color': '#888',
             'line-width': 8
           }
+        });
+      },
+      setSelect: function () {
+        $(document).ready(function() {
+          $('select').material_select();
         });
       }
     }
