@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get '/contact', to: 'home#index'
   get '/map',     to: 'map#index'
   get '/map/terminal', to: 'map#terminal'
+  get '/bus_map', to: 'home#index'
 
   namespace :api, format: 'json' do
     resources :tasks, only: [:index, :create, :update]
