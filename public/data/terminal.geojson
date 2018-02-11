@@ -1,0 +1,4145 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "札幌駅総合開発㈱",
+        "terminal_name": "札幌駅バスターミナル",
+        "terminal_building_status": "１０階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "19",
+        "berth_number_with_steps_eliminated": "19",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "4",
+        "meeting_standard_ramp_number": "4",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "-",
+        "presence_of_ticket_vending_machine_for_handicapped": "○",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030BD431A6D2D6FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.352387,
+          43.067662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "西新サービス㈱",
+        "terminal_name": "宮の沢バスターミナル",
+        "terminal_building_status": "３階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "10",
+        "berth_number_with_steps_eliminated": "10",
+        "elevator_number": "1",
+        "meeting_standard_elevator_number": "1",
+        "escalator_number": "2",
+        "meeting_starndard_escalator_number": "2",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030BD5B1A6CD5C7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.27446,
+          43.08899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "西新サービス㈱",
+        "terminal_name": "大谷地バスターミナル",
+        "terminal_building_status": "１０階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "○",
+        "correspondence_to_steps": "○",
+        "berth_number": "10",
+        "berth_number_with_steps_eliminated": "10",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "○",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030BD15AA6D9D5FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.45187,
+          43.02726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "㈱札幌副都心開発公社",
+        "terminal_name": "新札幌バスターミナル",
+        "terminal_building_status": "８階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "15",
+        "berth_number_with_steps_eliminated": "15",
+        "elevator_number": "2",
+        "meeting_standard_elevator_number": "2",
+        "escalator_number": "6",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "1",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "-",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030BD23126DB447FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.47223,
+          43.03919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "北海道いすゞ自動車㈱",
+        "terminal_name": "福住バスターミナル",
+        "terminal_building_status": "６階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "9",
+        "berth_number_with_steps_eliminated": "9",
+        "elevator_number": "1",
+        "meeting_standard_elevator_number": "1",
+        "escalator_number": "2",
+        "meeting_starndard_escalator_number": "2",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030BD0D6A6D66C7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.40334,
+          43.01994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "ジェイ・アール北海道バス（株）",
+        "terminal_name": "円山バスターミナル",
+        "terminal_building_status": "２階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "5",
+        "berth_number_with_steps_eliminated": "5",
+        "elevator_number": "1",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "1",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030BD35826D05EFFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.31726,
+          43.05556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "ジェイ・アール北海道バス（株）",
+        "terminal_name": "西２８丁目バスターミナル",
+        "terminal_building_status": "７階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "5",
+        "berth_number_with_steps_eliminated": "5",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030BD3C5A6D0207FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.31378,
+          43.06166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "ジェイ・アール北海道バス（株）・㈱じょうてつ",
+        "terminal_name": "啓明バスターミナル",
+        "terminal_building_status": "１階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "5",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030BD24926D109FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.32675,
+          43.04052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "北海道中央バス㈱",
+        "terminal_name": "札幌バスターミナル",
+        "terminal_building_status": "４階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "9",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "1",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030BD3D326D32EFFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.357254,
+          43.062401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "北海道中央バス㈱",
+        "terminal_name": "白石バスターミナル",
+        "terminal_building_status": "８階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "3",
+        "berth_number_with_steps_eliminated": "3",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030BD2A626D5E17FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.39563,
+          43.04568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "北海道中央バス㈱",
+        "terminal_name": "南郷７丁目バスターミナル",
+        "terminal_building_status": "１階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "3",
+        "berth_number_with_steps_eliminated": "3",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030BD25226D6EBFFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.41042,
+          43.04102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "北海道中央バス㈱・ジェイ・アール北海道バス（株）",
+        "terminal_name": "もみじ台バスターミナル",
+        "terminal_building_status": "１階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "2",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030BD12BA6DD42FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.5006,
+          43.02466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "北海道中央バス㈱・ジェイ・アール北海道バス（株）",
+        "terminal_name": "麻生バスターミナル",
+        "terminal_building_status": "６階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "8",
+        "berth_number_with_steps_eliminated": "8",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030BD6F4A6D1EC7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.33936,
+          43.10694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "北海道中央バス㈱・ジェイ・アール北海道バス（株）",
+        "terminal_name": "北２４条バスターミナル",
+        "terminal_building_status": "１１階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "4",
+        "berth_number_with_steps_eliminated": "4",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030BD5BAA6D249FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.34454,
+          43.08949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "北海道中央バス㈱・ジェイ・アール北海道バス（株）",
+        "terminal_name": "琴似バスターミナル",
+        "terminal_building_status": "１階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "4",
+        "berth_number_with_steps_eliminated": "4",
+        "elevator_number": "1",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "2",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "-",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030BD4C2A6CF767FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.30434,
+          43.07571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "北海道中央バス㈱・ジェイ・アール北海道バス（株）",
+        "terminal_name": "大通バスセンター",
+        "terminal_building_status": "９階",
+        "terminal_location": "地下１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "8",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "4",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030BD3AE26D337FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.35777,
+          43.06035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "宗谷バス㈱・北都交通㈱・根室交通㈱",
+        "terminal_name": "大通バスセンター",
+        "terminal_building_status": "９階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "4",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030BD3AE26D337FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.35777,
+          43.06035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "北海道中央バス㈱",
+        "terminal_name": "環状通東バスターミナル",
+        "terminal_building_status": "１階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "5",
+        "berth_number_with_steps_eliminated": "5",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030BD53CA6D4677FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.37462,
+          43.08249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "北海道中央バス㈱",
+        "terminal_name": "手宮バスターミナル",
+        "terminal_building_status": "２階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "4",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030BDE2FA6B9EC7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.998,
+          43.20977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "北海道中央バス㈱",
+        "terminal_name": "岩内バスターミナル",
+        "terminal_building_status": "２階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "5",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030BCE4AA6980EFFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.516362,
+          42.983705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "北海道中央バス㈱",
+        "terminal_name": "滝川バスターミナル",
+        "terminal_building_status": "３階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "8",
+        "berth_number_with_steps_eliminated": "8",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030BF68E26F97FFFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.90222,
+          43.55635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "北海道中央バス㈱",
+        "terminal_name": "旭川バスターミナル",
+        "terminal_building_status": "２階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "3",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030C05482719957FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.35851,
+          43.7658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "北海道中央バス㈱",
+        "terminal_name": "岩見沢バスターミナル",
+        "terminal_building_status": "３階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "12",
+        "berth_number_with_steps_eliminated": "12",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030BDDC426EF78FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.7596,
+          43.20378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "夕張鉄道㈱",
+        "terminal_name": "若菜バスターミナル",
+        "terminal_building_status": "３階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "4",
+        "berth_number_with_steps_eliminated": "4",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030BD18226FE0C7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.9669,
+          43.02946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "夕張鉄道㈱",
+        "terminal_name": "野幌バスターミナル",
+        "terminal_building_status": "２階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030BD62EA6DFDB7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.53751,
+          43.09594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "株式会社盛岡バスセンター",
+        "terminal_name": "盛岡バスセンター",
+        "terminal_building_status": "地上3階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "8",
+        "berth_number_with_steps_eliminated": "3",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030AE75D26C5217FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.15739,
+          39.69941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "弘南バス株式会社",
+        "terminal_name": "弘前バスターミナル",
+        "terminal_building_status": "地上7階・地下1階",
+        "terminal_location": "地上１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "10",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "-",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030B26A326958E7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.4808,
+          40.5993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "下北交通株式会社",
+        "terminal_name": "むつバスターミナル",
+        "terminal_building_status": "地上3階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "6",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030B57A526C921FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.21432,
+          41.29629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "羽後交通株式会社",
+        "terminal_name": "横手バスターミナル",
+        "terminal_building_status": "地上２階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "3",
+        "berth_number_with_steps_eliminated": "3",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030ACC05A69B4D7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.5625,
+          39.31055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "山交バス株式会社",
+        "terminal_name": "山交ビルバスターミナル",
+        "terminal_building_status": "地上8階・地下1階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "10",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "○",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030A8134A68B12FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.33171,
+          38.24649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "庄内交通株式会社",
+        "terminal_name": "鶴岡エスモール",
+        "terminal_building_status": "地上2階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "4",
+        "berth_number_with_steps_eliminated": "4",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "2",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030AA3C7A667F67FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.83234,
+          38.7382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "庄内交通株式会社",
+        "terminal_name": "酒田バスターミナル",
+        "terminal_building_status": "地上2階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "4",
+        "berth_number_with_steps_eliminated": "4",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "2",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030AB0E5A668B67FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.843,
+          38.92477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "仙台市交通局",
+        "terminal_name": "旭ヶ丘バスターミナル",
+        "terminal_building_status": "地上4階・地下1階",
+        "terminal_location": "地上１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "6",
+        "berth_number_with_steps_eliminated": "6",
+        "elevator_number": "1",
+        "meeting_standard_elevator_number": "1",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030A849DA6B1E67FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.8839,
+          38.29499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "会津乗合自動車株式会社",
+        "terminal_name": "若松駅前バスターミナル",
+        "terminal_building_status": "地上2階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "8",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030A4D41A66EF8FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.93205,
+          37.50765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "会津乗合自動車株式会社",
+        "terminal_name": "芦ノ牧バスターミナル",
+        "terminal_building_status": "地上1階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030A4357A66D7F7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.911072,
+          37.366656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "会津乗合自動車株式会社",
+        "terminal_name": "喜多方バスターミナル",
+        "terminal_building_status": "地上2階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "4",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030A56FB266A6DFFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.86742,
+          37.64597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "会津乗合自動車株式会社",
+        "terminal_name": "坂下バスターミナル",
+        "terminal_building_status": "地上2階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "4",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030A510A2667367FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82167,
+          37.56146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "会津乗合自動車株式会社",
+        "terminal_name": "野沢バスターミナル",
+        "terminal_building_status": "地上1階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030A526726596DFFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.62564,
+          37.58086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "会津乗合自動車株式会社",
+        "terminal_name": "山口バスターミナル",
+        "terminal_building_status": "地上1階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030A3777A663E87FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77467,
+          37.19776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "㈱世界貿易センタービルディング",
+        "terminal_name": "浜松町バスターミナル",
+        "terminal_building_status": "地上５階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "10",
+        "berth_number_with_steps_eliminated": "10",
+        "elevator_number": "1",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "2",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000309CB072662A0FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75648,
+          35.65551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "東京シティ・エアターミナル㈱",
+        "terminal_name": "東京シティエアターミナル",
+        "terminal_building_status": "地上3階・地下1階",
+        "terminal_location": "１階・３階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "18",
+        "berth_number_with_steps_eliminated": "18",
+        "elevator_number": "4",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "8",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "2",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000309CCDCA664C1FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.78677,
+          35.6816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "横浜シティ・エア・ターミナル㈱",
+        "terminal_name": "横浜シティ・エア・ターミナル（YCAT）",
+        "terminal_building_status": "地上30階・地下3階",
+        "terminal_location": "１階",
+        "position_from_station": "至近",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "6",
+        "berth_number_with_steps_eliminated": "6",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "2",
+        "meeting_standard_ramp_number": "2",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "×",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "○",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B000000000309BD9D26595F7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.624842,
+          35.464739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "㈱サンシャインシティ",
+        "terminal_name": "サンシャインバスターミナル",
+        "terminal_building_status": "地下3階・地上12階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "16",
+        "berth_number_with_steps_eliminated": "9",
+        "elevator_number": "11",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "3",
+        "meeting_standard_ramp_number": "1",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "×",
+        "place_code": "00001B000000000309D01EA6600D7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.71985,
+          35.72792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "草津町",
+        "terminal_name": "草津温泉バスターミナル",
+        "terminal_building_status": "地上3階",
+        "terminal_location": "２階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "×",
+        "berth_number": "9",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "2",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030A0EE3A6110D7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.5963,
+          36.62066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "京浜急行バス㈱",
+        "terminal_name": "品川バスターミナル",
+        "terminal_building_status": "地上2階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "2",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000309C96A266153FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.73798,
+          35.63256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "東急バス㈱",
+        "terminal_name": "渋谷駅バスターミナル",
+        "terminal_building_status": "地上5階",
+        "terminal_location": "５階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "2",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "×",
+        "presence_of_guidance_facility": "×",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "×",
+        "place_code": "00001B000000000309CB36A65EB87FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.70091,
+          35.65815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "東急バス㈱",
+        "terminal_name": "池上駅バスターミナル",
+        "terminal_building_status": "建物なし",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "3",
+        "berth_number_with_steps_eliminated": "3",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "×",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "×",
+        "place_code": "00001B000000000309C52CA65EE27FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.703247,
+          35.57226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "東急バス㈱",
+        "terminal_name": "綱島駅バスターミナル",
+        "terminal_building_status": "建物なし",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "7",
+        "berth_number_with_steps_eliminated": "7",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "×",
+        "presence_of_toilet_for_handicapped": "-",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B000000000309C2B0A65A15FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.634994,
+          35.536938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "東急バス㈱",
+        "terminal_name": "梶が谷駅バスターミナル",
+        "terminal_building_status": "建物なし",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "3",
+        "berth_number_with_steps_eliminated": "3",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "×",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B000000000309C672A658B9FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.61566,
+          35.59038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "相鉄バス㈱",
+        "terminal_name": "二俣川駅北口バスターミナル",
+        "terminal_building_status": "地上4階",
+        "terminal_location": "１階",
+        "position_from_station": "併設",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "6",
+        "berth_number_with_steps_eliminated": "6",
+        "elevator_number": "2",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "1",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "-",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B000000000309BD922652E17FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.53251,
+          35.464118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "新潟交通株式会社",
+        "terminal_name": "新潟駅前バスターミナル",
+        "terminal_building_status": "地上1階",
+        "terminal_location": "１階",
+        "position_from_station": "併設",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "14",
+        "berth_number_with_steps_eliminated": "12",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "1",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "-",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030A69CB2631E1FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0632,
+          37.9135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "新潟交通株式会社",
+        "terminal_name": "万代シテイバスセンター",
+        "terminal_building_status": "地上4階",
+        "terminal_location": "１階",
+        "position_from_station": "1000",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "12",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "1",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "1",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030A6A02263163FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0562,
+          37.91656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "アルピコ交通株式会社",
+        "terminal_name": "松本バスターミナル",
+        "terminal_building_status": "地上7階〜地下１階・店舗兼用バスターミナル",
+        "terminal_location": "１階",
+        "position_from_station": "150m",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "10",
+        "berth_number_with_steps_eliminated": "10",
+        "elevator_number": "2",
+        "meeting_standard_elevator_number": "2",
+        "escalator_number": "2",
+        "meeting_starndard_escalator_number": "2",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "1",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000309F37425E4BD7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.96606,
+          36.23047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "名古屋市",
+        "terminal_name": "栄バスターミナル",
+        "terminal_building_status": "地上１階・地下１階",
+        "terminal_location": "半地下階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "○",
+        "correspondence_to_steps": "○",
+        "berth_number": "10",
+        "berth_number_with_steps_eliminated": "10",
+        "elevator_number": "1",
+        "meeting_standard_elevator_number": "1",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "1",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "○",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B000000000309A918A59A9DFFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.91188,
+          35.17294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "静岡鉄道(株)",
+        "terminal_name": "新静岡バスターミナル",
+        "terminal_building_status": "鉄骨造地下１階・地上１１階建",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "8",
+        "berth_number_with_steps_eliminated": "8",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "2",
+        "meeting_standard_ramp_number": "2",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B0000000003099B34A60251FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.38675,
+          34.97537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "富士急行株式会社",
+        "terminal_name": "御殿場駅前",
+        "terminal_building_status": "木造２階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "7",
+        "berth_number_with_steps_eliminated": "1",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000309B1FF262926FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.93903,
+          35.2995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "株式会社新東海バス",
+        "terminal_name": "修善寺温泉ターミナル",
+        "terminal_building_status": "１階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "5",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B0000000003099B15A626EBFFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.90732,
+          34.97365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "株式会社南伊豆東海バス",
+        "terminal_name": "下田ターミナル",
+        "terminal_building_status": "１階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "5",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000309865E26298BFFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.94464,
+          34.67902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "岐阜乗合自動車㈱",
+        "terminal_name": "岐阜バスターミナル",
+        "terminal_building_status": "名鉄岐阜駅隣接",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "5",
+        "berth_number_with_steps_eliminated": "5",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B000000000309B9DFA58FDD7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.75897,
+          35.41154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "三重交通㈱",
+        "terminal_name": "湯の山温泉バスターミナル",
+        "terminal_building_status": "地上１階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "-",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B0000000003099D64257C52FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.48105,
+          35.00646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "三重交通㈱",
+        "terminal_name": "松阪バスターミナル",
+        "terminal_building_status": "地上１階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "4",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B0000000003097F27A58027FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.535541,
+          34.576427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "三重交通㈱",
+        "terminal_name": "鳥羽バスターミナル",
+        "terminal_building_status": "地上１階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030978E0A595D77FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.84395,
+          34.48715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "（株）湊町開発センター",
+        "terminal_name": "湊町バスターミナル",
+        "terminal_building_status": "地上6F・地下2F",
+        "terminal_location": "２階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "10",
+        "berth_number_with_steps_eliminated": "10",
+        "elevator_number": "2",
+        "meeting_standard_elevator_number": "2",
+        "escalator_number": "2",
+        "meeting_starndard_escalator_number": "2",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "○",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000309858D25370EFFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.49594,
+          34.66739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "大阪市交通局",
+        "terminal_name": "出戸バスターミナル",
+        "terminal_building_status": "１階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "○",
+        "correspondence_to_steps": "○",
+        "berth_number": "5",
+        "berth_number_with_steps_eliminated": "5",
+        "elevator_number": "1",
+        "meeting_standard_elevator_number": "1",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "2",
+        "meeting_standard_ramp_number": "1",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B0000000003098178A53BF87FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.565785,
+          34.60937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "大阪市交通局",
+        "terminal_name": "住之江バスターミナル",
+        "terminal_building_status": "地上１９階・地下１階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "○",
+        "correspondence_to_steps": "○",
+        "berth_number": "6",
+        "berth_number_with_steps_eliminated": "6",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "1",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "-",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030981722535667FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.47234,
+          34.60901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "西日本ジェイアールバス(株)",
+        "terminal_name": "周山バスターミナル",
+        "terminal_building_status": "１階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000309A7E0A540A27FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.63213,
+          35.1556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "本四海峡バス株式会社",
+        "terminal_name": "大磯港高速バスターミナル",
+        "terminal_building_status": "２階建",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "1",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B0000000003097D552514017FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.99739,
+          34.55051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "奈良交通(株)",
+        "terminal_name": "五條バスセンター",
+        "terminal_building_status": "１階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "4",
+        "berth_number_with_steps_eliminated": "4",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B0000000003096F77A5457E7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.701243,
+          34.353328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "（株）広島バスセンター",
+        "terminal_name": "広島バスセンター",
+        "terminal_building_status": "地上１０階・地下３階",
+        "terminal_location": "３階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "20",
+        "berth_number_with_steps_eliminated": "20",
+        "elevator_number": "5",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "3",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030972702461657FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.45718,
+          34.39557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "美祢市",
+        "terminal_name": "秋芳洞観光センター",
+        "terminal_building_status": "地上２階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "3",
+        "berth_number_with_steps_eliminated": "3",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B000000000309665324108B7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.307294,
+          34.223296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "備北交通（株）",
+        "terminal_name": "庄原バスセンター",
+        "terminal_building_status": "地上１階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "3",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B0000000003099337A488C8FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.01738,
+          34.86175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "石見交通（株）",
+        "terminal_name": "大田バスセンター",
+        "terminal_building_status": "地上３階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "5",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000309AB15A4648DFFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.50211,
+          35.20121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "両備ホールディングス（株）",
+        "terminal_name": "西大寺バスターミナル",
+        "terminal_building_status": "地上１階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "7",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "1",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "○",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030984C324D00E7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.03102,
+          34.65618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "宇野自動車（株）",
+        "terminal_name": "宇野バス表町バスセンター",
+        "terminal_building_status": "地上３階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "5",
+        "berth_number_with_steps_eliminated": "5",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B0000000003098521A4C8F47FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.93001,
+          34.66143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "防長交通（株）",
+        "terminal_name": "萩バスセンター",
+        "terminal_building_status": "地上１階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "3",
+        "berth_number_with_steps_eliminated": "2",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "2",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "○",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000309737C2417407FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.40268,
+          34.41046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "宇和島自動車(株)",
+        "terminal_name": "宇和島バスセンター",
+        "terminal_building_status": "２階",
+        "terminal_location": "１階",
+        "position_from_station": "無",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "3",
+        "berth_number_with_steps_eliminated": "3",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "1",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "○",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B0000000003091FC8A469147FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.56647,
+          33.22005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "宇和島自動車(株)",
+        "terminal_name": "城辺バスセンター",
+        "terminal_building_status": "２階",
+        "terminal_location": "１階",
+        "position_from_station": "無",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "2",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "1",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "○",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B0000000003090D7DA46A5C7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.58469,
+          32.95988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "四国高速バス株式会社",
+        "terminal_name": "高松中央インターバスターミナル",
+        "terminal_building_status": "平屋",
+        "terminal_location": "１階",
+        "position_from_station": "無",
+        "presence_of_compliance": "○",
+        "correspondence_to_steps": "○",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "2",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B0000000003096C3324D3047FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.073131,
+          34.306853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "ジェイアール四国バス株式会社",
+        "terminal_name": "坂出インターバスターミナル",
+        "terminal_building_status": "１階",
+        "terminal_location": "１階",
+        "position_from_station": "無",
+        "presence_of_compliance": "○",
+        "correspondence_to_steps": "○",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "2",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B0000000003096B67A4C2787FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.83778,
+          34.295534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "博多バスターミナル㈱",
+        "terminal_name": "博多バスターミナル",
+        "terminal_building_status": "地上9階・地下1階",
+        "terminal_location": "１階・２階・３階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "○",
+        "correspondence_to_steps": "○",
+        "berth_number": "26",
+        "berth_number_with_steps_eliminated": "26",
+        "elevator_number": "1",
+        "meeting_standard_elevator_number": "1",
+        "escalator_number": "4",
+        "meeting_starndard_escalator_number": "4",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "2",
+        "meeting_standard_ramp_number": "2",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "○",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B00000000030939E2A3D2177FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.41908,
+          33.59127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "福岡市",
+        "terminal_name": "藤崎バス乗継ターミナル",
+        "terminal_building_status": "地上4階・地下1階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "8",
+        "berth_number_with_steps_eliminated": "8",
+        "elevator_number": "1",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "1",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B0000000003093931A3CD19FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.34811,
+          33.58144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "九州産交ランドマーク㈱",
+        "terminal_name": "熊本交通センター",
+        "terminal_building_status": "地上7階・地下1階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "○",
+        "correspondence_to_steps": "○",
+        "berth_number": "27",
+        "berth_number_with_steps_eliminated": "27",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B000000000309024AA3E6257FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.7043,
+          32.8006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "一般",
+        "company_name": "㈱別府交通センター",
+        "terminal_name": "別府交通センター",
+        "terminal_building_status": "地上4階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "3",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B0000000003092537A41E48FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.5027,
+          33.29732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "ジェイアール九州バス㈱",
+        "terminal_name": "宮田町駅停車場",
+        "terminal_building_status": "地上2階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "6",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000309433C23E300FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.65959,
+          33.72423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "祐徳バス㈱",
+        "terminal_name": "鹿島バスセンター",
+        "terminal_building_status": "地上4階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "5",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B0000000003091853A3BB717FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.09695,
+          33.11399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "ジェイアール九州バス㈱",
+        "terminal_name": "嬉野温泉駅",
+        "terminal_building_status": "地上2階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000309175CA3B3AD7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.98651,
+          33.10025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "長崎自動車㈱",
+        "terminal_name": "長崎新地ターミナル",
+        "terminal_building_status": "地上6階・地下1階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "○",
+        "correspondence_to_steps": "○",
+        "berth_number": "5",
+        "berth_number_with_steps_eliminated": "5",
+        "elevator_number": "1",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "1",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B000000000308FE27A3ABC6FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.87415,
+          32.74176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "長崎自動車㈱",
+        "terminal_name": "桜の里ターミナル",
+        "terminal_building_status": "地上5階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "○",
+        "correspondence_to_steps": "○",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "2",
+        "elevator_number": "1",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "1",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B0000000003090414A3A3EEFFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.762589,
+          32.826028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "長崎自動車㈱",
+        "terminal_name": "ココウォークバスセンター",
+        "terminal_building_status": "地上8階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "○",
+        "correspondence_to_steps": "○",
+        "berth_number": "7",
+        "berth_number_with_steps_eliminated": "7",
+        "elevator_number": "2",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "2",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "○",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B000000000308FFA5A3AB1E7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.86478,
+          32.76298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "長崎県交通局",
+        "terminal_name": "長崎駅前ターミナル",
+        "terminal_building_status": "地上6階・地下1階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "10",
+        "berth_number_with_steps_eliminated": "5",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "1",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "○",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000308FEF3A3AB9D7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.87184,
+          32.75309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "長崎県交通局",
+        "terminal_name": "諫早駅前ターミナル",
+        "terminal_building_status": "地上3階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "8",
+        "berth_number_with_steps_eliminated": "8",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "1",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "○",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030905E823B7A2FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.04283,
+          32.852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "長崎県交通局",
+        "terminal_name": "大村駅前ターミナル",
+        "terminal_building_status": "地上6階・地下1階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "4",
+        "berth_number_with_steps_eliminated": "4",
+        "elevator_number": "1",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "○",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B0000000003090A0AA3B1CE7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.9599,
+          32.91082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "西肥自動車㈱",
+        "terminal_name": "佐世保バスセンター",
+        "terminal_building_status": "地上14階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "6",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "2",
+        "meeting_standard_ramp_number": "2",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "×",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "○",
+        "correspondence_to_platform": "×",
+        "place_code": "00001B0000000003091BD6A3A1777FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.72751,
+          33.16394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "島原鉄道㈱",
+        "terminal_name": "口之津バスターミナル",
+        "terminal_building_status": "地上2階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000308F4FAA3C1BA7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.186349,
+          32.611251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "さいかい交通㈱",
+        "terminal_name": "板の浦ターミナル",
+        "terminal_building_status": "地上2階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "1",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B000000000309106B23A216FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.73637,
+          33.00151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "九州産交バス㈱",
+        "terminal_name": "本渡バスターミナル",
+        "terminal_building_status": "地上1階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "4",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000308E9EBA3C2457FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.19408,
+          32.45398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "九州産交バス㈱",
+        "terminal_name": "松橋バスターミナル",
+        "terminal_building_status": "地上1階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "4",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000308F7D8A3E440FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.67737,
+          32.65205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "九州産交バス㈱",
+        "terminal_name": "阿蘇山上バスターミナル",
+        "terminal_building_status": "地上2階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B0000000003090B82A4003C7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.07536,
+          32.93172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "熊本電気鉄道㈱",
+        "terminal_name": "菊池バスターミナル",
+        "terminal_building_status": "地上2階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "2",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B0000000003090BA223EBC37FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.78419,
+          32.93347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "日田バス㈱",
+        "terminal_name": "日田バスセンター",
+        "terminal_building_status": "地上1階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "3",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000309268EA3F6977FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.93819,
+          33.31637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "亀の井バス㈱",
+        "terminal_name": "北浜バスセンター",
+        "terminal_building_status": "地上10階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "12",
+        "berth_number_with_steps_eliminated": "10",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B0000000003092408241E84FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.50604,
+          33.28046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "亀の井バス㈱",
+        "terminal_name": "鉄輪待合所",
+        "terminal_building_status": "地上1階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "7",
+        "berth_number_with_steps_eliminated": "7",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030926B0A41BFC7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.47002,
+          33.31826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "亀の井バス㈱",
+        "terminal_name": "由布院駅前バスセンター",
+        "terminal_building_status": "地上2階",
+        "terminal_location": "１階",
+        "position_from_station": "近接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "5",
+        "berth_number_with_steps_eliminated": "4",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B00000000030922E92413F37FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.35573,
+          33.2645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "宮崎交通㈱",
+        "terminal_name": "宮交シティバスターミナル",
+        "terminal_building_status": "地上4階",
+        "terminal_location": "１階",
+        "position_from_station": "近接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "11",
+        "berth_number_with_steps_eliminated": "8",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B000000000308C296A418657FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.41896,
+          31.89459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "宮崎交通㈱",
+        "terminal_name": "延岡営業所ターミナル",
+        "terminal_building_status": "地上2階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "2",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "-",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000308EF5AA42A9AFFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.67793,
+          32.53126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "宮崎交通㈱",
+        "terminal_name": "日南バスターミナル",
+        "terminal_building_status": "地上2階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "2",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "-",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000308ACFEA416CF7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.39641,
+          31.58748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "宮崎交通㈱",
+        "terminal_name": "西都営業所ターミナル",
+        "terminal_building_status": "地上3階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "4",
+        "berth_number_with_steps_eliminated": "4",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "-",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000308D183A4176AFFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.40504,
+          32.10688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "宮崎交通㈱",
+        "terminal_name": "高鍋バスターミナル",
+        "terminal_building_status": "地上2階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "2",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "-",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000308D32BA41E9E7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.50745,
+          32.13044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "宮崎交通㈱",
+        "terminal_name": "小林バスターミナル",
+        "terminal_building_status": "地上1階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "2",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "-",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000308C970A3F989FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.980106,
+          31.992048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "南国交通㈱",
+        "terminal_name": "南国交通バスターミナル",
+        "terminal_building_status": "地上1階・地下1階",
+        "terminal_location": "１階",
+        "position_from_station": "隣接",
+        "presence_of_compliance": "○",
+        "correspondence_to_steps": "○",
+        "berth_number": "4",
+        "berth_number_with_steps_eliminated": "4",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "○",
+        "correspondence_to_platform": "○",
+        "place_code": "00001B000000000308ACB823DAE57FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.54428,
+          31.58356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "鹿児島市",
+        "terminal_name": "桜島港フェリーターミナル",
+        "terminal_building_status": "地上3階",
+        "terminal_location": "１階",
+        "position_from_station": "なし",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "4",
+        "berth_number_with_steps_eliminated": "4",
+        "elevator_number": "1",
+        "meeting_standard_elevator_number": "1",
+        "escalator_number": "1",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "×",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000308AD2AA3DE99FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.59698,
+          31.58993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "（株）琉球バス交通",
+        "terminal_name": "具志川バスターミナル",
+        "terminal_building_status": "地上１階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "2",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "○",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B0000000003073E50231E1C7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.859344,
+          26.372445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "（株）琉球バス交通・沖縄バス（株）",
+        "terminal_name": "屋慶名バスターミナル",
+        "terminal_building_status": "地上１階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "×",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B0000000003073B26A3213A7FC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.90367,
+          26.32748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "（株）琉球バス交通・沖縄バス（株）",
+        "terminal_name": "名護バスターミナル",
+        "terminal_building_status": "地上１階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "-",
+        "berth_number": "10",
+        "berth_number_with_steps_eliminated": "0",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "1",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "-",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B0000000003074E11A3259AFFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.96592,
+          26.59655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "専用",
+        "company_name": "東運輸（株）",
+        "terminal_name": "石垣バスターミナル",
+        "terminal_building_status": "地上３階",
+        "terminal_location": "１階",
+        "position_from_station": "-",
+        "presence_of_compliance": "-",
+        "correspondence_to_steps": "○",
+        "berth_number": "2",
+        "berth_number_with_steps_eliminated": "2",
+        "elevator_number": "0",
+        "meeting_standard_elevator_number": "0",
+        "escalator_number": "0",
+        "meeting_starndard_escalator_number": "0",
+        "other_elevator_number": "0",
+        "meeting_standardother_elevator_number": "0",
+        "ramp_number": "0",
+        "meeting_standard_ramp_number": "0",
+        "presence_of_block_for_audiovisual_handicapped": "-",
+        "presence_of_guidance_facility": "○",
+        "presence_of_toilet_for_handicapped": "○",
+        "presence_of_ticket_vending_machine_for_handicapped": "-",
+        "correspondence_to_platform": "-",
+        "place_code": "00001B000000000306AF56A219C2FFC0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.15659,
+          24.33903
+        ]
+      }
+    }
+  ]
+}
