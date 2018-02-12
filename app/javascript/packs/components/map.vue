@@ -106,11 +106,11 @@
                         + "障害者対応型便所の有無: " + properties.presence_of_toilet_for_handicapped + "<br>"
                         + "障害者対応券売機の有無: " + properties.presence_of_ticket_vending_machine_for_handicapped + "<br>"
               ;
-        
+
           new mapboxgl.Popup()
             .setLngLat(e.features[0].geometry.coordinates)
             .setHTML(message)
-            .addTo(map);
+            .addTo(this.map);
         });
 
         // Change the cursor to a pointer when the mouse is over the places layer.
