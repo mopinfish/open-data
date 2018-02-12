@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class='example-5'>
+  <div>
     <select v-model='selected'>
       <option v-for='option in options' v-bind:value='option'>
         {{ option }}
@@ -15,27 +15,35 @@
 </template>
 
 <script>
-  import axios from 'axios';
+  import BusAPI from '../models/BusAPI.js';
+  import Bus from '../models/Bus.js';
+  import BusPole from '../models/BusPole.js';
+  import BusRoute from '../models/BusRoute.js';
 
   export default {
     data: function () {
       return {
-        busroutePatterns: [],
-        busstopPoles: [],
+        busPoles: [],
+        busRoutes: [],
         options: [],
-        busInfos: [],
         selected: '',
-        map: null
+        map: null,
       }
     },
     watch: {
-      selected: function (val) {
-        for(var i = 0; i < this.busInfos.length; ++i) {
-          if (this.busInfos[i]['name'] == val) {
-            this.addBusRoutes(this.busInfos[i]['routes'])
-            this.addBusStops(this.busInfos[i]['routes'])
-          }
-        }
+      selected: function (busRouteId) {
+        let busRoute = this.busRoutes.find(x => x.busRouteId == busRouteId)
+        this.addBusRoutes(busRoute.routes)
+        this.addBusStops(busRoute.routes)
+
+        BusAPI.getBusByOperator('odpt.Operator:Toei').then((response) => {
+          let busInfos = response.data;
+          let pole = busInfos.map(x => new Bus(x))
+                             .find(x => x.busRoute == busRouteId);
+          this.addCurrentBus(pole);
+        }).catch((error) => {
+          console.log(error);
+        });
       },
     },
     mounted() {
@@ -73,58 +81,32 @@
         });
       },
       fetchBusStops: function () {
-        const token = localStorage.getItem('token');
-        axios.get('https://api-tokyochallenge.odpt.org/api/v4/odpt:BusroutePattern?odpt:operator=odpt.Operator:KantoBus&acl:consumerKey=' + token).then((response) => {
-          for(var i = 0; i < response.data.length; i++) {
-            this.busroutePatterns.push(response.data[i]);
-          }
-          axios.get('https://api-tokyochallenge.odpt.org/api/v4/odpt:BusstopPole?odpt:operator=odpt.Operator:KantoBus&acl:consumerKey=' + token).then((response) => {
-            for(var i = 0; i < response.data.length; i++) {
-              this.busstopPoles.push(response.data[i]);
-            }
+        let busRoutePatternPromise = BusAPI.getBusRoutePatternsByOperator('odpt.Operator:Toei');
+        let busPolePromise = BusAPI.getBusPolesByOperator('odpt.Operator:Toei');
 
-            for(var i = 0; i < this.busroutePatterns.length; i++) {
-              var routes = []
-              for(var j = 0; j < this.busroutePatterns[i]['odpt:busstopPoleOrder'].length; j++) {
-                var location = [0, 0]
-                for(var k = 0; k < this.busstopPoles.length; k++) {
-                  if (this.busstopPoles[k]['owl:sameAs'] == this.busroutePatterns[i]['odpt:busstopPoleOrder'][j]['odpt:busstopPole']) {
-                    location[0] = this.busstopPoles[k]['geo:long']
-                    location[1] = this.busstopPoles[k]['geo:lat']
-                  }
-                }
-                routes.push(location)
-              }
-              this.busInfos.push({
-                'name': this.busroutePatterns[i]['odpt:busroute'],
-                'routes': routes
-              })
-              this.options.push(this.busroutePatterns[i]['odpt:busroute'])
-            }
-            console.log('ADD')
-          }, (error) => {
-            console.log(error);
-          });
-        }, (error) => {
+        Promise.all([busRoutePatternPromise, busPolePromise]).then((responses) => {
+          let busRoutePatterns = responses[0].data;
+          let busPoles = responses[1].data;
+
+          this.busPoles = busPoles.map(x => new BusPole(x));
+          this.busRoutes = busRoutePatterns.map(x => new BusRoute(x, this.busPoles));
+          this.options = this.busRoutes.map(x => x.busRouteId);
+        }).catch((error) => {
           console.log(error);
         });
       },
-      addBusStops: function (busInfos) {
-        var features = []
-        for(var i = 0; i < busInfos.length; ++i) {
-          let feature = {
-            'type': 'Feature',
-            'properties': {
-              // 'description': '<p>' + busInfos[i]['title'] + '</p>',
-              'icon': 'theatre'
-            },
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [busInfos[i][0], busInfos[i][1]]
-            }
+      addCurrentBus: function (pole) {
+        let features = [{
+          'type': 'Feature',
+          'properties': {
+            'description': '<p>' + pole.name + '</p>',
+            'icon': 'theatre'
+          },
+          'geometry': {
+            'type': 'Point',
+            'coordinates': [pole.longitude, pole.latitude]
           }
-          features.push(feature)
-        }
+        }];
 
         this.map.addLayer({
           'id': 'places',
@@ -142,8 +124,41 @@
           }
         });
       },
-      addBusRoutes: function (coords) {
-        let id = this.map.addLayer({
+      addBusStops: function (routes) {
+        let filterdRoutes = routes.filter(x => x !== undefined)
+        let features = filterdRoutes.map(pole => ({
+          'type': 'Feature',
+          'properties': {
+            'description': '<p>' + pole.name + '</p>',
+            'icon': 'theatre'
+          },
+          'geometry': {
+            'type': 'Point',
+            'coordinates': [pole.longitude, pole.latitude]
+          }
+        }));
+
+        this.map.addLayer({
+          'id': 'places',
+          'type': 'symbol',
+          'source': {
+            'type': 'geojson',
+            'data': {
+              'type': 'FeatureCollection',
+              'features': features
+            }
+          },
+          'layout': {
+            'icon-image': '{icon}-15',
+            'icon-allow-overlap': true
+          }
+        });
+      },
+      addBusRoutes: function (routes) {
+        let filterdRoutes = routes.filter(x => x !== undefined)
+        let coords = filterdRoutes.map(x => [x.longitude, x.latitude]);
+
+        this.map.addLayer({
           'id': 'route',
           'type': 'line',
           'source': {
