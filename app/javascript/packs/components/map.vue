@@ -1,5 +1,5 @@
 <template>
-<div style="width: 100%; height: 100%;">
+<div style="width: 100%; height: 100%; padding:0 10px;">
 
   <div class="input-field col s12">
     <select v-model='selected'>
@@ -10,7 +10,7 @@
     </select>
   </div>
 
-  <div id='map' style='height: 540px;'>
+  <div id='map' style='height: 480px;'>
   </div>
 
   <div class="preloader-background">
