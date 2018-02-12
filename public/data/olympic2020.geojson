@@ -1,0 +1,590 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "オリンピックスタジアム",
+        "id": "1",
+        "event": "開閉会式、陸上競技、サッカー、ラグビー"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.71493,
+          35.67816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "東京体育館",
+        "id": "2",
+        "event": "卓球"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.72956,
+          35.71908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "代々木競技場",
+        "id": "3",
+        "event": "ハンドボール"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.69479,
+          35.66634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "日本武道館",
+        "id": "4",
+        "event": "柔道"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.74987,
+          35.69324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "皇居外苑",
+        "id": "5",
+        "event": "自転車競技（ロード・レース：スタート）"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.74436,
+          35.68358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "東京国際フォーラム",
+        "id": "6",
+        "event": "ウェイトリフティング"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.76437,
+          35.67669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "国技館",
+        "id": "7",
+        "event": "ボクシング"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.79351,
+          35.69691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "有明アリーナ",
+        "id": "8",
+        "event": "バレーボール（インドア）"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.79014,
+          35.63628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "有明BMXコース",
+        "id": "9",
+        "event": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.78848,
+          35.63596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "有明ベロドローム",
+        "id": "10",
+        "event": "自転車競技（トラック）"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.78921,
+          35.63539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "有明体操競技場",
+        "id": "11",
+        "event": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.79051,
+          35.63577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "有明テニスの森",
+        "id": "12",
+        "event": "テニス"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.78858,
+          35.63461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "お台場臨海公園",
+        "id": "13",
+        "event": "トライアスロン、水泳（マラソン10km）"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77534,
+          35.62934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "潮風公園",
+        "id": "14",
+        "event": "ビーチバレー"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.76877,
+          35.62401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "東京ビックサイト・ホールA",
+        "id": "15",
+        "event": "レスリング"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7946,
+          35.62846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "東京ビックサイト・ホールB",
+        "id": "16",
+        "event": "フェンシング、テコンドー"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.79555,
+          35.62902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "大井ホッケー競技場",
+        "id": "17",
+        "event": "ホッケー"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7528,
+          35.59215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "海の森クロスカントリーコース",
+        "id": "18",
+        "event": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.80528,
+          35.60701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "海の森水上競技場",
+        "id": "19",
+        "event": "ボート、カヌー（スプリント）"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.80643,
+          35.60083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "海の森マウンテンバイクコース",
+        "id": "20",
+        "event": "自転車競技（マウンテンバイク）"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81837,
+          35.59657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "若洲オリンピックマリーナ",
+        "id": "21",
+        "event": "セーリング"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.83639,
+          35.61674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "葛西臨海公園",
+        "id": "22",
+        "event": "カヌー（スラローム）"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.85951,
+          35.64129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "夢の島ユース・プラザ・アリーナA",
+        "id": "23",
+        "event": "バドミントン"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82324,
+          35.65293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "夢の島ユース・プラザ・アリーナB",
+        "id": "24",
+        "event": "バスケットボール"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.83242,
+          35.65108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "夢の島公園",
+        "id": "25",
+        "event": "アーチェリー"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82566,
+          35.65047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "夢の島競技場",
+        "id": "26",
+        "event": "馬術（障害馬術、馬場馬術、総合馬術）"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82382,
+          35.6485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "オリンピックアクアティックセンター",
+        "id": "27",
+        "event": "水泳（競技）、水泳（飛込）、水泳（シンクロナイズドスイミング）"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.82347,
+          35.64934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "ウォーターポロアリーナ",
+        "id": "28",
+        "event": "水泳（水球）"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.81483,
+          35.6475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "武蔵野の森総合スポーツ施設",
+        "id": "29",
+        "event": "近代五種（フェンシング）"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.52272,
+          35.67644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "東京スタジアム",
+        "id": "30",
+        "event": "近代五種（水泳、馬術、ランニング、射撃）、サッカー"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.60923,
+          35.62327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "武蔵の森公園",
+        "id": "31",
+        "event": "自転車競技（ロード・レース：ゴール）"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.52315,
+          35.67666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "陸上自衛隊朝霧射撃場",
+        "id": "32",
+        "event": "射撃"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5851,
+          35.77894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "霞ヶ関カントリー倶楽部",
+        "id": "33",
+        "event": "ゴルフ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.40443,
+          35.90145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "札幌ドーム",
+        "id": "34",
+        "event": "サッカー"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.40987,
+          43.01497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "宮城スタジアム",
+        "id": "35",
+        "event": "サッカー"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.95029,
+          38.33547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "埼玉スタジアム2002",
+        "id": "36",
+        "event": "サッカー"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.71739,
+          35.90307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "横浜国際総合競技場",
+        "id": "37",
+        "event": "サッカー"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.606296,
+          35.50997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "選手村",
+        "id": "38",
+        "event": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.78157,
+          35.64351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "olympic2020place": "IBC/MPC",
+        "id": "39",
+        "event": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.798634,
+          35.62315
+        ]
+      }
+    }
+  ]
+}

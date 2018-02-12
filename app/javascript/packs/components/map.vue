@@ -1,7 +1,8 @@
 <template>
 <div>
-  <div>
+  <div class="input-field col s12">
     <select v-model='selected'>
+      <option value="" disabled selected>路線を選択してください</option>
       <option v-for='option in options' v-bind:value='option'>
         {{ option }}
       </option>
@@ -53,6 +54,20 @@
     mounted() {
       this.loadMap();
       this.fetchBusStops();
+
+      // セレクトボックスをmaterializeで初期化
+      $('select').material_select();
+      // select要素が変更されてもイベントをキャッチできるように、documentに対してイベントハンドラを登録
+      $(document).on('change', 'select',  (evt) => {
+        // evt.target(select要素)のvalueをselectedに代入することでV-Model経由で選択した値を反映する
+        this.selected = evt.target.value;
+      });
+    },
+    updated: function () {
+      this.$nextTick(function () {
+        // ビュー全体が再レンダリングされた後にのみ実行されるコード
+        $('select').material_select();
+      })
     },
     methods: {
       loadMap: function () {
