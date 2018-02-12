@@ -28,6 +28,9 @@
         options: [],
         selected: '',
         map: null,
+        routeLayerCount: 0,
+        busstopLayerCount: 0,
+        busLayerCount: 0,
       }
     },
     watch: {
@@ -38,8 +41,9 @@
 
         BusAPI.getBusByOperator('odpt.Operator:Toei').then((response) => {
           let busInfos = response.data;
-          let pole = busInfos.map(x => new Bus(x))
-                             .find(x => x.busRoute == busRouteId);
+          let bus = busInfos.map(x => new Bus(x))
+                            .find(x => x.busRoute == busRouteId);
+          let pole = this.busPoles.find(x => x.busPoleId == bus.fromBusstopPole)
           this.addCurrentBus(pole);
         }).catch((error) => {
           console.log(error);
@@ -100,7 +104,7 @@
           'type': 'Feature',
           'properties': {
             'description': '<p>' + pole.name + '</p>',
-            'icon': 'theatre'
+            'icon': 'bus'
           },
           'geometry': {
             'type': 'Point',
@@ -108,8 +112,11 @@
           }
         }];
 
+        if (this.map.getLayer('currentBus' + this.busLayerCount))
+          this.map.removeLayer('currentBus' + this.busLayerCount);
+        this.busLayerCount++;
         this.map.addLayer({
-          'id': 'places',
+          'id': 'currentBus'+ this.busLayerCount,
           'type': 'symbol',
           'source': {
             'type': 'geojson',
@@ -119,7 +126,7 @@
             }
           },
           'layout': {
-            'icon-image': '{icon}-15',
+            'icon-image': '{icon}-11',
             'icon-allow-overlap': true
           }
         });
@@ -130,7 +137,7 @@
           'type': 'Feature',
           'properties': {
             'description': '<p>' + pole.name + '</p>',
-            'icon': 'theatre'
+            'icon': 'circle'
           },
           'geometry': {
             'type': 'Point',
@@ -138,8 +145,11 @@
           }
         }));
 
+        if (this.map.getLayer('busStops' + this.busstopLayerCount))
+          this.map.removeLayer('busStops' + this.busstopLayerCount);
+        this.busstopLayerCount++;
         this.map.addLayer({
-          'id': 'places',
+          'id': 'busStops' + this.busstopLayerCount,
           'type': 'symbol',
           'source': {
             'type': 'geojson',
@@ -149,8 +159,11 @@
             }
           },
           'layout': {
-            'icon-image': '{icon}-15',
+            'icon-image': '{icon}-11',
             'icon-allow-overlap': true
+          },
+          'paint': {
+            'icon-color': '#49ee51'
           }
         });
       },
@@ -158,8 +171,11 @@
         let filterdRoutes = routes.filter(x => x !== undefined)
         let coords = filterdRoutes.map(x => [x.longitude, x.latitude]);
 
+        if (this.map.getLayer('busRoute' + this.routeLayerCount))
+          this.map.removeLayer('busRoute' + this.routeLayerCount);
+        this.routeLayerCount++;
         this.map.addLayer({
-          'id': 'route',
+          'id': 'busRoute' + this.routeLayerCount,
           'type': 'line',
           'source': {
             'type': 'geojson',
