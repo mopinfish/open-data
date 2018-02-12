@@ -42,6 +42,7 @@
     mounted() {
       this.loadMap();
       this.fetchBusStops();
+
       // セレクトボックスをmaterializeで初期化
       $('select').material_select();
       // select要素が変更されてもイベントをキャッチできるように、documentに対してイベントハンドラを登録
