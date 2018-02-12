@@ -1,15 +1,16 @@
 <template>
-<div>
+<div style="width: 100%; height: 100%;">
+
   <div class="input-field col s12">
     <select v-model='selected'>
       <option value="" disabled selected>路線を選択してください</option>
       <option v-for='option in options' v-bind:value='option'>
-        {{ option }}
+      {{ option }}
       </option>
     </select>
   </div>
 
-  <div id='map' style='width: 800px; height: 600px;'>
+  <div id='map' style='height: 800px;'>
   </div>
 
   <div class="preloader-background">
