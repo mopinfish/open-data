@@ -2,40 +2,11 @@
 <div>
   <div class="input-field col s12">
     <select v-model='selected'>
-      <option value="" disabled selected>Choose your option</option>
-      <option v-for='option in options' v-bind:value='option'>
-        {{ option }}
+      <option value="" disabled selected>路線を選択してください</option>
+      <option v-for='option in options' v-bind:value='option["odpt:busroute"]'>
+        {{ option["dc:title"] }}
       </option>
     </select>
-    <label>aaaaaalize Disabled</label>
-    <span>selected : {{selected}}</span>
-  </div>
-<!--
-  <div class="input-field col s12">
-    <div class="select-wrapper">
-      <span class="caret">$B"'(B</span>
-      <input type="text" class="select-dropdown" readonly="true" data-activates="select-options-f8b87f79-2266-1315-1f9e-8d59a833e67d" value="Choose your option">
-        <ul id="select-options-f8b87f79-2266-1315-1f9e-8d59a833e67d" class="dropdown-content select-dropdown ">
-          <li class="disabled "><span>Choose your option</span></li>
-          <li v-for='option in options'><span>{{ option }}</span></li>
-        </ul> -->
-        <!-- <select v-model='selected'"> !-->
-<!--        <select data-select-id="f8b87f79-2266-1315-1f9e-8d59a833e67d" class="initialized">
-          <option value="" disabled="disabled" selected="selected">Choose your option</option>
-          <option v-for='option in options' v-bind:value='option'>{{ option }}</option>
-        </select>
-    </div>
-  <label>sddsrialize Select</label>
-  </div>
--->
-  <div class="input-field col s12">
-    <select>
-      <option value="" disabled selected>Choose your option</option>
-      <option value="1">Option 1</option>
-      <option value="2">Option 2</option>
-      <option value="3">Option 3</option>
-    </select>
-    <label>bbbberialize Select</label>
   </div>
 
   <div id='map' style='width: 800px; height: 600px;'>
@@ -142,10 +113,10 @@
                 'name': this.busroutePatterns[i]['odpt:busroute'],
                 'routes': routes
               })
-              this.options.push(this.busroutePatterns[i]['odpt:busroute'])
+                //this.options.push(this.busroutePatterns[i]['odpt:busroute'])
+              this.options.push(this.busroutePatterns[i])
             }
             console.log('ADD')
-            setTimeout(this.setSelect, 2000);
           }, (error) => {
             console.log(error);
           });
@@ -209,11 +180,6 @@
             'line-color': '#888',
             'line-width': 8
           }
-        });
-      },
-      setSelect: function () {
-        $(document).ready(function() {
-          $('select').material_select();
         });
       }
     }
