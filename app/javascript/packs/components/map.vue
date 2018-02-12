@@ -7,14 +7,28 @@
         {{ option }}
       </option>
     </select>
-    <label>aaaaaalize Disabled</label>
-    <span>selected : {{selected}}</span>
   </div>
 
   <div id='map' style='width: 800px; height: 600px;'>
   </div>
-</div>
 
+  <div class="preloader-background">
+    <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-green-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div>
+        <div class="gap-patch">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
 </template>
 
 <script>
@@ -112,6 +126,7 @@
           this.busPoles = busPoles.map(x => new BusPole(x));
           this.busRoutes = busRoutePatterns.map(x => new BusRoute(x, this.busPoles));
           this.options = this.busRoutes.map(x => x.busRouteId);
+          this.hidePreloader();
         }).catch((error) => {
           console.log(error);
         });
@@ -214,6 +229,10 @@
             'line-width': 8
           }
         });
+      },
+      hidePreloader: function () {
+          $('.preloader-background').fadeOut('slow');
+          $('.preloader-wrapper').fadeOut();
       }
     }
   }
