@@ -1,26 +1,33 @@
 <template>
 <div>
-  <ul id="dropdown" class="dropdown-content">
-    <li><router-link to="/">Top</router-link></li>
-    <li><router-link to="/about">About</router-link></li>
-    <li><router-link to="/contact">Contact</router-link></li>
-  </ul>
   <nav>
-    <div class="nav-wrapper container">
-      <a href="/" class="brand-logo left">オリンピック バス運行状況マップ</a>
-      <ul class="right hide-on-med-and-down">
+      <div class="nav-wrapper container" role="navigation">
+        <a id="logo-container" href="/" class="brand-logo"><font size="2">オリンピック バス運行状況マップ</font></a>
+        <ul class="right hide-on-med-and-down">
+          <li><router-link to="/">Top</router-link></li>
+          <li><router-link to="/about">About</router-link></li>
+          <li><router-link to="/contact">Contact</router-link></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
         <li><router-link to="/">Top</router-link></li>
         <li><router-link to="/about">About</router-link></li>
         <li><router-link to="/contact">Contact</router-link></li>
       </ul>
-      <ul class="right hide-on-large-only">
-        <li>
-          <a class="dropdown-button" href="#!" data-activates="dropdown">
-            Menu<i class="material-icons right">arrow_drop_down</i>
-          </a>
-        </li>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
       </ul>
     </div>
   </nav>
 </div>
 </template>
+
+<script>
+  export default {
+    mounted() {
+      $(".button-collapse").sideNav();
+      $('#nav-mobile').click(function(e) {
+        $('#sidenav-overlay').trigger('click');
+      });
+    }
+  }
+</script>
