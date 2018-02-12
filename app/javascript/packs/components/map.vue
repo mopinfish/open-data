@@ -41,6 +41,13 @@
     mounted() {
       this.loadMap();
       this.fetchBusStops();
+      $('select').material_select();
+    },
+    updated: function () {
+      this.$nextTick(function () {
+        // ビュー全体が再レンダリングされた後にのみ実行されるコード
+        $('select').material_select();
+      })
     },
     methods: {
       loadMap: function () {
