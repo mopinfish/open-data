@@ -87,7 +87,7 @@
     },
     methods: {
       loadMap: function () {
-        const mapToken = localStorage.getItem('map_token');
+        const mapToken = 'pk.eyJ1IjoibW9waW5maXNoIiwiYSI6ImNqZGZreGVuajBhNjIyd29idXI3ZHFxNm4ifQ._edxUwp0j5sAl7FsK9oyrA';
         mapboxgl.accessToken = mapToken;
         this.map = new mapboxgl.Map({
           container: 'map',
