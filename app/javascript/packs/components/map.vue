@@ -55,16 +55,10 @@
         let busRoute = this.busRoutes.find(x => x.busRouteId == busRouteId)
         this.addBusRoutes(busRoute.routes)
         this.addBusStops(busRoute.routes)
+        this.adjustMap(busRoute.routes);
+        this.fetchCurrentBus();
 
-        BusAPI.getBusByOperator('odpt.Operator:Toei').then((response) => {
-          let busInfos = response.data;
-          let bus = busInfos.map(x => new Bus(x))
-                            .find(x => x.busRoute == busRouteId);
-          let pole = this.busPoles.find(x => x.busPoleId == bus.fromBusstopPole)
-          this.addCurrentBus(pole);
-        }).catch((error) => {
-          console.log(error);
-        });
+        setInterval(this.fetchCurrentBus, 10000);
       },
     },
     mounted() {
@@ -151,6 +145,27 @@
         }).catch((error) => {
           console.log(error);
         });
+      },
+      fetchCurrentBus: function () {
+        BusAPI.getBusByOperator('odpt.Operator:Toei').then((response) => {
+          let busInfos = response.data;
+          let bus = busInfos.map(x => new Bus(x))
+                            .find(x => x.busRoute == this.selected);
+          let pole = this.busPoles.find(x => x.busPoleId == bus.fromBusstopPole)
+          this.addCurrentBus(pole);
+        }).catch((error) => {
+          console.log(error);
+        });
+      },
+      adjustMap: function (routes) {
+        let filterdRoutes = routes.filter(x => x !== undefined)
+        let coordsLongitude = filterdRoutes.map(x => x.longitude);
+        let coordsLatitude = filterdRoutes.map(x => x.latitude);
+
+        let centerLongitude = coordsLongitude.reduce((x, y) => x + y) / coordsLongitude.length
+        let centerLatitude = coordsLatitude.reduce((x, y) => x + y) / coordsLatitude.length
+
+        this.map.setCenter([centerLongitude, centerLatitude])
       },
       addCurrentBus: function (pole) {
         let features = [{
