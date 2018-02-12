@@ -1,11 +1,14 @@
 <template>
 <div>
-  <div class='example-5'>
+  <div class="input-field col s12">
     <select v-model='selected'>
+      <option value="" disabled selected>路線を選択してください</option>
       <option v-for='option in options' v-bind:value='option'>
         {{ option }}
       </option>
     </select>
+    <label>aaaaaalize Disabled</label>
+    <span>selected : {{selected}}</span>
   </div>
 
   <div id='map' style='width: 800px; height: 600px;'>
@@ -15,40 +18,67 @@
 </template>
 
 <script>
-  import axios from 'axios';
+  import BusAPI from '../models/BusAPI.js';
+  import Bus from '../models/Bus.js';
+  import BusPole from '../models/BusPole.js';
+  import BusRoute from '../models/BusRoute.js';
 
   export default {
     data: function () {
       return {
-        busroutePatterns: [],
-        busstopPoles: [],
+        busPoles: [],
+        busRoutes: [],
         options: [],
-        busInfos: [],
         selected: '',
-        map: null
+        map: null,
+        routeLayerCount: 0,
+        busstopLayerCount: 0,
+        busLayerCount: 0,
       }
     },
     watch: {
-      selected: function (val) {
-        for(var i = 0; i < this.busInfos.length; ++i) {
-          if (this.busInfos[i]['name'] == val) {
-            this.addBusRoutes(this.busInfos[i]['routes'])
-            this.addBusStops(this.busInfos[i]['routes'])
-          }
-        }
+      selected: function (busRouteId) {
+        let busRoute = this.busRoutes.find(x => x.busRouteId == busRouteId)
+        this.addBusRoutes(busRoute.routes)
+        this.addBusStops(busRoute.routes)
+
+        BusAPI.getBusByOperator('odpt.Operator:Toei').then((response) => {
+          let busInfos = response.data;
+          let bus = busInfos.map(x => new Bus(x))
+                            .find(x => x.busRoute == busRouteId);
+          let pole = this.busPoles.find(x => x.busPoleId == bus.fromBusstopPole)
+          this.addCurrentBus(pole);
+        }).catch((error) => {
+          console.log(error);
+        });
       },
     },
     mounted() {
       this.loadMap();
       this.fetchBusStops();
+
+      // セレクトボックスをmaterializeで初期化
+      $('select').material_select();
+      // select要素が変更されてもイベントをキャッチできるように、documentに対してイベントハンドラを登録
+      $(document).on('change', 'select',  (evt) => {
+        // evt.target(select要素)のvalueをselectedに代入することでV-Model経由で選択した値を反映する
+        this.selected = evt.target.value;
+      });
+    },
+    updated: function () {
+      this.$nextTick(function () {
+        // ビュー全体が再レンダリングされた後にのみ実行されるコード
+        $('select').material_select();
+      })
     },
     methods: {
       loadMap: function () {
-        mapboxgl.accessToken = '';
+        const mapToken = localStorage.getItem('map_token');
+        mapboxgl.accessToken = mapToken;
         this.map = new mapboxgl.Map({
           container: 'map',
-          style: 'mapbox://styles/oganyan/cjdi9hvzm0ggh2tnvdda7oac6',
-          center: [139.6, 35.7],
+          style: 'mapbox://styles/mopinfish/cjdig1o651oxc2rmksb7qh0qb', // stylesheet location
+          center: [139.767052, 35.681167], // starting position [lng, lat]
           zoom: 12,
         });
 
@@ -72,60 +102,38 @@
         });
       },
       fetchBusStops: function () {
-        axios.get('https://api-tokyochallenge.odpt.org/api/v4/odpt:BusroutePattern?odpt:operator=odpt.Operator:KantoBus&acl:consumerKey=').then((response) => {
-          for(var i = 0; i < response.data.length; i++) {
-            this.busroutePatterns.push(response.data[i]);
-          }
-          axios.get('https://api-tokyochallenge.odpt.org/api/v4/odpt:BusstopPole?odpt:operator=odpt.Operator:KantoBus&acl:consumerKey=').then((response) => {
-            for(var i = 0; i < response.data.length; i++) {
-              this.busstopPoles.push(response.data[i]);
-            }
+        let busRoutePatternPromise = BusAPI.getBusRoutePatternsByOperator('odpt.Operator:Toei');
+        let busPolePromise = BusAPI.getBusPolesByOperator('odpt.Operator:Toei');
 
-            for(var i = 0; i < this.busroutePatterns.length; i++) {
-              var routes = []
-              for(var j = 0; j < this.busroutePatterns[i]['odpt:busstopPoleOrder'].length; j++) {
-                var location = [0, 0]
-                for(var k = 0; k < this.busstopPoles.length; k++) {
-                  if (this.busstopPoles[k]['owl:sameAs'] == this.busroutePatterns[i]['odpt:busstopPoleOrder'][j]['odpt:busstopPole']) {
-                    location[0] = this.busstopPoles[k]['geo:long']
-                    location[1] = this.busstopPoles[k]['geo:lat']
-                  }
-                }
-                routes.push(location)
-              }
-              this.busInfos.push({
-                'name': this.busroutePatterns[i]['odpt:busroute'],
-                'routes': routes
-              })
-              this.options.push(this.busroutePatterns[i]['odpt:busroute'])
-            }
-            console.log('ADD')
-          }, (error) => {
-            console.log(error);
-          });
-        }, (error) => {
+        Promise.all([busRoutePatternPromise, busPolePromise]).then((responses) => {
+          let busRoutePatterns = responses[0].data;
+          let busPoles = responses[1].data;
+
+          this.busPoles = busPoles.map(x => new BusPole(x));
+          this.busRoutes = busRoutePatterns.map(x => new BusRoute(x, this.busPoles));
+          this.options = this.busRoutes.map(x => x.busRouteId);
+        }).catch((error) => {
           console.log(error);
         });
       },
-      addBusStops: function (busInfos) {
-        var features = []
-        for(var i = 0; i < busInfos.length; ++i) {
-          let feature = {
-            'type': 'Feature',
-            'properties': {
-              // 'description': '<p>' + busInfos[i]['title'] + '</p>',
-              'icon': 'theatre'
-            },
-            'geometry': {
-              'type': 'Point',
-              'coordinates': [busInfos[i][0], busInfos[i][1]]
-            }
+      addCurrentBus: function (pole) {
+        let features = [{
+          'type': 'Feature',
+          'properties': {
+            'description': '<p>' + pole.name + '</p>',
+            'icon': 'bus'
+          },
+          'geometry': {
+            'type': 'Point',
+            'coordinates': [pole.longitude, pole.latitude]
           }
-          features.push(feature)
-        }
+        }];
 
+        if (this.map.getLayer('currentBus' + this.busLayerCount))
+          this.map.removeLayer('currentBus' + this.busLayerCount);
+        this.busLayerCount++;
         this.map.addLayer({
-          'id': 'places',
+          'id': 'currentBus'+ this.busLayerCount,
           'type': 'symbol',
           'source': {
             'type': 'geojson',
@@ -135,14 +143,56 @@
             }
           },
           'layout': {
-            'icon-image': '{icon}-15',
+            'icon-image': '{icon}-11',
             'icon-allow-overlap': true
           }
         });
       },
-      addBusRoutes: function (coords) {
-        let id = this.map.addLayer({
-          'id': 'route',
+      addBusStops: function (routes) {
+        let filterdRoutes = routes.filter(x => x !== undefined)
+        let features = filterdRoutes.map(pole => ({
+          'type': 'Feature',
+          'properties': {
+            'description': '<p>' + pole.name + '</p>',
+            'icon': 'circle'
+          },
+          'geometry': {
+            'type': 'Point',
+            'coordinates': [pole.longitude, pole.latitude]
+          }
+        }));
+
+        if (this.map.getLayer('busStops' + this.busstopLayerCount))
+          this.map.removeLayer('busStops' + this.busstopLayerCount);
+        this.busstopLayerCount++;
+        this.map.addLayer({
+          'id': 'busStops' + this.busstopLayerCount,
+          'type': 'symbol',
+          'source': {
+            'type': 'geojson',
+            'data': {
+              'type': 'FeatureCollection',
+              'features': features
+            }
+          },
+          'layout': {
+            'icon-image': '{icon}-11',
+            'icon-allow-overlap': true
+          },
+          'paint': {
+            'icon-color': '#49ee51'
+          }
+        });
+      },
+      addBusRoutes: function (routes) {
+        let filterdRoutes = routes.filter(x => x !== undefined)
+        let coords = filterdRoutes.map(x => [x.longitude, x.latitude]);
+
+        if (this.map.getLayer('busRoute' + this.routeLayerCount))
+          this.map.removeLayer('busRoute' + this.routeLayerCount);
+        this.routeLayerCount++;
+        this.map.addLayer({
+          'id': 'busRoute' + this.routeLayerCount,
           'type': 'line',
           'source': {
             'type': 'geojson',
