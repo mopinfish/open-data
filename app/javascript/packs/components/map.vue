@@ -89,6 +89,10 @@
           center: [139.767052, 35.681167], // starting position [lng, lat]
           zoom: 14,
         });
+        // Add zoom and rotation controls to the map.
+        this.map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
+        // Add full-screen control
+        this.map.addControl(new mapboxgl.FullscreenControl(), 'top-right');
 
         // When a click event occurs on a feature in the places layer, open a popup at the
         // location of the feature, with description HTML from its properties.
