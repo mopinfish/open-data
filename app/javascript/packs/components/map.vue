@@ -10,7 +10,7 @@
     </select>
   </div>
 
-  <div id='map' style='height: 800px;'>
+  <div id='map' style='height: 540px;'>
   </div>
 
   <div class="preloader-background">
@@ -87,7 +87,7 @@
           container: 'map',
           style: 'mapbox://styles/mopinfish/cjdig1o651oxc2rmksb7qh0qb', // stylesheet location
           center: [139.767052, 35.681167], // starting position [lng, lat]
-          zoom: 12,
+          zoom: 14,
         });
 
         // When a click event occurs on a feature in the places layer, open a popup at the
