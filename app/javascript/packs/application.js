@@ -7,4 +7,14 @@
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
 
-console.log('Hello World from Webpacker')
+import Vue from 'vue/dist/vue.esm.js'
+import Router from './router/router'
+import Header from './components/header.vue'
+
+var app = new Vue({
+  router: Router,
+  el: '#app',
+  components: {
+    'navbar': Header,
+  }
+});
