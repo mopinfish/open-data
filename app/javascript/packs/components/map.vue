@@ -93,6 +93,13 @@
         this.map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
         // Add full-screen control
         this.map.addControl(new mapboxgl.FullscreenControl(), 'top-right');
+        // Add geolocate control to the map.
+        this.map.addControl(new mapboxgl.GeolocateControl({
+          positionOptions: {
+            enableHighAccuracy: true
+          },
+          trackUserLocation: true
+        }));
 
         // When a click event occurs on a feature in the places layer, open a popup at the
         // location of the feature, with description HTML from its properties.
