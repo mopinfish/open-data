@@ -205,7 +205,8 @@
             }
           },
           'layout': {
-            'icon-image': '{icon}-11',
+            'icon-image': '{icon}-green-11',
+            'icon-size': 2.5,
             'icon-allow-overlap': true
           }
         });
@@ -216,7 +217,6 @@
           'type': 'Feature',
           'properties': {
             'description': '<p>' + pole.name + '</p>',
-            'icon': 'circle'
           },
           'geometry': {
             'type': 'Point',
@@ -229,7 +229,7 @@
         this.busstopLayerCount++;
         this.map.addLayer({
           'id': 'busStops' + this.busstopLayerCount,
-          'type': 'symbol',
+          'type': 'circle',
           'source': {
             'type': 'geojson',
             'data': {
@@ -237,12 +237,9 @@
               'features': features
             }
           },
-          'layout': {
-            'icon-image': '{icon}-11',
-            'icon-allow-overlap': true
-          },
           'paint': {
-            'icon-color': '#49ee51'
+            'circle-radius': 6,
+            'circle-color': '#448aff'
           }
         });
       },
@@ -272,8 +269,8 @@
             'line-cap': 'round'
           },
           'paint': {
-            'line-color': '#888',
-            'line-width': 8
+            'line-color': '#82b1ff',
+            'line-width': 5
           }
         });
       },
