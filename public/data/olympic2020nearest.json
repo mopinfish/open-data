@@ -1,0 +1,652 @@
+{
+  "poleNumberLimit": 10,
+  "operators": 6,
+  "nearestOlympics": [
+    {
+      "nearest": [
+        {
+          "distance": 0.37693300549390646,
+          "poleId": "odpt.BusstopPole:Toei.Yotsuyadairokushougakkouiriguchi.519.1"
+        },
+        {
+          "distance": 0.35553094865934703,
+          "poleId": "odpt.BusstopPole:Toei.Sendagayaekimae.828.1"
+        },
+        {
+          "distance": 0.35922546925261756,
+          "poleId": "odpt.BusstopPole:Toei.Sendagayahachimammae.830.1"
+        },
+        {
+          "distance": 0.38773907890471426,
+          "poleId": "odpt.BusstopPole:Toei.Yotsuyadairokushougakkouiriguchi.519.2"
+        },
+        {
+          "distance": 0.404877463266139,
+          "poleId": "odpt.BusstopPole:Toei.Sendagayaekimae.828.2"
+        },
+        {
+          "distance": 0.3599628092657805,
+          "poleId": "odpt.BusstopPole:Toei.Sendagayahachimammae.830.2"
+        },
+        {
+          "distance": 0.44721715725823236,
+          "poleId": "odpt.BusstopPole:Toei.Shinanomachiekiminamiguchi.612.3"
+        },
+        {
+          "distance": 0.4060590632251929,
+          "poleId": "odpt.BusstopPole:Toei.Sendagayaekimae.828.3"
+        },
+        {
+          "distance": 0.39225865305102425,
+          "poleId": "odpt.BusstopPole:Toei.Kasumigaokadanchimae.2191.3"
+        },
+        {
+          "distance": 0.47562656964108013,
+          "poleId": "odpt.BusstopPole:Toei.Shinanomachiekiminamiguchi.612.4"
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.3957415400917535,
+          "poleId": "odpt.BusstopPole:Toei.Ootsukanichoume.243.1"
+        },
+        {
+          "distance": 0.31389213156044604,
+          "poleId": "odpt.BusstopPole:Toei.Ootsukasanchoume.244.1"
+        },
+        {
+          "distance": 0.20289283811701536,
+          "poleId": "odpt.BusstopPole:Toei.Otowanichoume.293.1"
+        },
+        {
+          "distance": 0.1998460771464669,
+          "poleId": "odpt.BusstopPole:Toei.Gokokujiseimommae.556.1"
+        },
+        {
+          "distance": 0.3236484889528484,
+          "poleId": "odpt.BusstopPole:Toei.Gokokujimae.557.1"
+        },
+        {
+          "distance": 0.42732020558665224,
+          "poleId": "odpt.BusstopPole:Toei.Ootsukanichoume.243.2"
+        },
+        {
+          "distance": 0.37915912069375557,
+          "poleId": "odpt.BusstopPole:Toei.Ootsukasanchoume.244.2"
+        },
+        {
+          "distance": 0.20867254619387732,
+          "poleId": "odpt.BusstopPole:Toei.Otowanichoume.293.2"
+        },
+        {
+          "distance": 0.2017481896359171,
+          "poleId": "odpt.BusstopPole:Toei.Gokokujiseimommae.556.2"
+        },
+        {
+          "distance": 0.2917641741730458,
+          "poleId": "odpt.BusstopPole:Toei.Gokokujimae.557.2"
+        },
+        {
+          "distance": 0.33415821525475087,
+          "poleId": "odpt.BusstopPole:Toei.Ootsukasanchoume.244.3"
+        },
+        {
+          "distance": 0.3791020590071883,
+          "poleId": "odpt.BusstopPole:Toei.Ootsukasanchoume.244.4"
+        }
+      ],
+      "id": "2"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.45408913994267236,
+          "poleId": "odpt.BusstopPole:Toei.Udagawachou.142.1"
+        },
+        {
+          "distance": 0.23360092420843562,
+          "poleId": "odpt.BusstopPole:Toei.Kamiyama.363.1"
+        },
+        {
+          "distance": 0.47317478607048324,
+          "poleId": "odpt.BusstopPole:Toei.Shibuyakuyakushomae.638.1"
+        },
+        {
+          "distance": 0.33923544792662697,
+          "poleId": "odpt.BusstopPole:Toei.Tomigaya.1017.2"
+        }
+      ],
+      "id": "3"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.39692045637187984,
+          "poleId": "odpt.BusstopPole:Toei.Kudanue.451.1"
+        },
+        {
+          "distance": 0.3183179037847702,
+          "poleId": "odpt.BusstopPole:Toei.Kudanshita.452.1"
+        },
+        {
+          "distance": 0.38013048460963506,
+          "poleId": "odpt.BusstopPole:Toei.Kudanue.451.2"
+        },
+        {
+          "distance": 0.3310405502643615,
+          "poleId": "odpt.BusstopPole:Toei.Kudanshita.452.2"
+        },
+        {
+          "distance": 0.3361171078880395,
+          "poleId": "odpt.BusstopPole:Toei.Kudanshita.452.3"
+        }
+      ],
+      "id": "4"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.3523456274779392,
+          "poleId": "odpt.BusstopPole:Toei.Koujimachinichoume.487.1"
+        },
+        {
+          "distance": 0.19117905583385972,
+          "poleId": "odpt.BusstopPole:Toei.Hanzoumon.1254.1"
+        },
+        {
+          "distance": 0.3990599707321596,
+          "poleId": "odpt.BusstopPole:Toei.Koujimachinichoume.487.2"
+        },
+        {
+          "distance": 0.12417735921043653,
+          "poleId": "odpt.BusstopPole:Toei.Hanzoumon.1254.2"
+        },
+        {
+          "distance": 0.15229527696829787,
+          "poleId": "odpt.BusstopPole:Toei.Miyakezaka.1501.3"
+        }
+      ],
+      "id": "5"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.4920420375028199,
+          "poleId": "odpt.BusstopPole:Toei.Toukyouekiyaesuguchi.967.1"
+        },
+        {
+          "distance": 0.22020979508600072,
+          "poleId": "odpt.BusstopPole:Toei.Toukyoukokusaifo-ramumae.1008.1"
+        },
+        {
+          "distance": 0.48532286579801437,
+          "poleId": "odpt.BusstopPole:Toei.Toukyouekimarunouchiminamiguchi.966.2"
+        },
+        {
+          "distance": 0.47726482283256816,
+          "poleId": "odpt.BusstopPole:Toei.Toukyouekiyaesuguchi.967.2"
+        },
+        {
+          "distance": 0.4171712135847695,
+          "poleId": "odpt.BusstopPole:Toei.Sukiyabashi.778.3"
+        },
+        {
+          "distance": 0.4651212000360735,
+          "poleId": "odpt.BusstopPole:Toei.Toukyouekiyaesuguchi.967.3"
+        },
+        {
+          "distance": 0.1268836251202925,
+          "poleId": "odpt.BusstopPole:Toei.Toukyoukokusaifo-ramumae.1008.3"
+        },
+        {
+          "distance": 0.46637638570793133,
+          "poleId": "odpt.BusstopPole:Toei.Sukiyabashi.778.4"
+        },
+        {
+          "distance": 0.4010776670830287,
+          "poleId": "odpt.BusstopPole:Toei.Toukyouekiyaesuguchi.967.4"
+        },
+        {
+          "distance": 0.46851984926764845,
+          "poleId": "odpt.BusstopPole:Toei.Toukyouekimarunouchiminamiguchi.966.5"
+        },
+        {
+          "distance": 0.4253962010380567,
+          "poleId": "odpt.BusstopPole:Toei.Hibiya.1336.6"
+        },
+        {
+          "distance": 0.4643660107593357,
+          "poleId": "odpt.BusstopPole:Toei.Hibiya.1336.7"
+        }
+      ],
+      "id": "6"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.34314296900312735,
+          "poleId": "odpt.BusstopPole:Toei.Toeiryougokuekimae.785.1"
+        },
+        {
+          "distance": 0.368995117758954,
+          "poleId": "odpt.BusstopPole:Toei.Toeiryougokuekimae.785.2"
+        },
+        {
+          "distance": 0.45901157506651297,
+          "poleId": "odpt.BusstopPole:Toei.Ishiwaraicchoume.94.3"
+        },
+        {
+          "distance": 0.446062792994361,
+          "poleId": "odpt.BusstopPole:Toei.Ishiwaraicchoume.94.4"
+        }
+      ],
+      "id": "7"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.31340265381228966,
+          "poleId": "odpt.BusstopPole:Toei.Ariaketenisunomori.74.1"
+        },
+        {
+          "distance": 0.4055712528518073,
+          "poleId": "odpt.BusstopPole:Toei.Ariakenichoume.77.1"
+        },
+        {
+          "distance": 0.19499477363050824,
+          "poleId": "odpt.BusstopPole:Toei.Ariaketenisunomori.74.2"
+        },
+        {
+          "distance": 0.33811608114623315,
+          "poleId": "odpt.BusstopPole:Toei.Ariakenichoume.77.2"
+        },
+        {
+          "distance": 0.3003021900676339,
+          "poleId": "odpt.BusstopPole:KantoBus.Kokusaitenjijouekimae.2919.1"
+        }
+      ],
+      "id": "8"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.16423334199496825,
+          "poleId": "odpt.BusstopPole:Toei.Ariaketenisunomori.74.1"
+        },
+        {
+          "distance": 0.09160644307927458,
+          "poleId": "odpt.BusstopPole:Toei.Ariaketenisunomori.74.2"
+        },
+        {
+          "distance": 0.4593475998768079,
+          "poleId": "odpt.BusstopPole:Toei.Ariakenichoume.77.2"
+        },
+        {
+          "distance": 0.35958451885571907,
+          "poleId": "odpt.BusstopPole:KantoBus.Kokusaitenjijouekimae.2919.1"
+        }
+      ],
+      "id": "9"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.24402294208943082,
+          "poleId": "odpt.BusstopPole:Toei.Ariaketenisunomori.74.1"
+        },
+        {
+          "distance": 0.18013925207969722,
+          "poleId": "odpt.BusstopPole:Toei.Ariaketenisunomori.74.2"
+        },
+        {
+          "distance": 0.4668306995410656,
+          "poleId": "odpt.BusstopPole:Toei.Ariakenichoume.77.2"
+        },
+        {
+          "distance": 0.2680540279176735,
+          "poleId": "odpt.BusstopPole:KantoBus.Kokusaitenjijouekimae.2919.1"
+        }
+      ],
+      "id": "10"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.3490998094644992,
+          "poleId": "odpt.BusstopPole:Toei.Ariaketenisunomori.74.1"
+        },
+        {
+          "distance": 0.4391267653210304,
+          "poleId": "odpt.BusstopPole:Toei.Ariakenichoume.77.1"
+        },
+        {
+          "distance": 0.24576384455161276,
+          "poleId": "odpt.BusstopPole:Toei.Ariaketenisunomori.74.2"
+        },
+        {
+          "distance": 0.37412400629839343,
+          "poleId": "odpt.BusstopPole:Toei.Ariakenichoume.77.2"
+        },
+        {
+          "distance": 0.23515241622838925,
+          "poleId": "odpt.BusstopPole:KantoBus.Kokusaitenjijouekimae.2919.1"
+        }
+      ],
+      "id": "11"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.24272066353069502,
+          "poleId": "odpt.BusstopPole:Toei.Ariaketenisunomori.74.1"
+        },
+        {
+          "distance": 0.2380718716556908,
+          "poleId": "odpt.BusstopPole:Toei.Ariaketenisunomori.74.2"
+        },
+        {
+          "distance": 0.2732493152267541,
+          "poleId": "odpt.BusstopPole:KantoBus.Kokusaitenjijouekimae.2919.1"
+        }
+      ],
+      "id": "12"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.23382895497637,
+          "poleId": "odpt.BusstopPole:Toei.Odaibakaihinkouenekimae.469.1"
+        },
+        {
+          "distance": 0.28688917583610024,
+          "poleId": "odpt.BusstopPole:Toei.Odaibakaihinkouenekimae.469.2"
+        },
+        {
+          "distance": 0.4611133177459442,
+          "poleId": "odpt.BusstopPole:Toei.Toukyouterepo-toekimae.2326.4"
+        },
+        {
+          "distance": 0.4582111596890548,
+          "poleId": "odpt.BusstopPole:Toei.Toukyouterepo-toekimae.2326.5"
+        },
+        {
+          "distance": 0.4535067551567095,
+          "poleId": "odpt.BusstopPole:Toei.Toukyouterepo-toekimae.2326.6"
+        },
+        {
+          "distance": 0.443143175836874,
+          "poleId": "odpt.BusstopPole:Toei.Toukyouterepo-toekimae.2326.7"
+        }
+      ],
+      "id": "13"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.4658755335368218,
+          "poleId": "odpt.BusstopPole:Toei.Funenokagakukanekimae.302.1"
+        },
+        {
+          "distance": 0.28579416923662243,
+          "poleId": "odpt.BusstopPole:KantoBus.Gurandonikko-toukyoudaiba.2913.1"
+        }
+      ],
+      "id": "14"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.21419435552225588,
+          "poleId": "odpt.BusstopPole:Toei.Toukyoubiggusaito.2324.3"
+        },
+        {
+          "distance": 0.21840264554401218,
+          "poleId": "odpt.BusstopPole:Toei.Toukyoubiggusaito.2324.4"
+        },
+        {
+          "distance": 0.2378076869359993,
+          "poleId": "odpt.BusstopPole:Toei.Toukyoubiggusaito.2324.5"
+        }
+      ],
+      "id": "15"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.24619023058525824,
+          "poleId": "odpt.BusstopPole:Toei.Toukyoubiggusaito.2324.3"
+        },
+        {
+          "distance": 0.2405906613045885,
+          "poleId": "odpt.BusstopPole:Toei.Toukyoubiggusaito.2324.4"
+        },
+        {
+          "distance": 0.2587758228944449,
+          "poleId": "odpt.BusstopPole:Toei.Toukyoubiggusaito.2324.5"
+        }
+      ],
+      "id": "16"
+    },
+    {
+      "nearest": [],
+      "id": "17"
+    },
+    {
+      "nearest": [],
+      "id": "18"
+    },
+    {
+      "nearest": [],
+      "id": "19"
+    },
+    {
+      "nearest": [],
+      "id": "20"
+    },
+    {
+      "nearest": [],
+      "id": "21"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.353312706934105,
+          "poleId": "odpt.BusstopPole:Toei.Kasairinkaikouenekimae.2189.3"
+        },
+        {
+          "distance": 0.3829070753998964,
+          "poleId": "odpt.BusstopPole:Toei.Kasairinkaikouenekimae.2189.4"
+        },
+        {
+          "distance": 0.336882503571964,
+          "poleId": "odpt.BusstopPole:Toei.Kasairinkaikouenekimae.2189.5"
+        }
+      ],
+      "id": "22"
+    },
+    {
+      "nearest": [],
+      "id": "23"
+    },
+    {
+      "nearest": [],
+      "id": "24"
+    },
+    {
+      "nearest": [],
+      "id": "25"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.4320266410709585,
+          "poleId": "odpt.BusstopPole:Toei.Shinkibaekimae.690.1"
+        },
+        {
+          "distance": 0.36028569979711406,
+          "poleId": "odpt.BusstopPole:Toei.Shinkibaekimae.691.1"
+        },
+        {
+          "distance": 0.43222288301627426,
+          "poleId": "odpt.BusstopPole:Toei.Shinkibaekimae.690.3"
+        },
+        {
+          "distance": 0.413948187016241,
+          "poleId": "odpt.BusstopPole:Toei.Shinkibaekimae.690.4"
+        },
+        {
+          "distance": 0.384703607240939,
+          "poleId": "odpt.BusstopPole:Toei.Shinkibaekimae.690.5"
+        },
+        {
+          "distance": 0.384703607240939,
+          "poleId": "odpt.BusstopPole:Toei.Shinkibaekimae.690.6"
+        }
+      ],
+      "id": "26"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.45860218619766296,
+          "poleId": "odpt.BusstopPole:Toei.Shinkibaekimae.691.1"
+        },
+        {
+          "distance": 0.48098218170947143,
+          "poleId": "odpt.BusstopPole:Toei.Shinkibaekimae.690.5"
+        },
+        {
+          "distance": 0.48098218170947143,
+          "poleId": "odpt.BusstopPole:Toei.Shinkibaekimae.690.6"
+        }
+      ],
+      "id": "27"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.3063586390273419,
+          "poleId": "odpt.BusstopPole:Toei.Tatsumidanchi.887.1"
+        },
+        {
+          "distance": 0.24280732242209696,
+          "poleId": "odpt.BusstopPole:Toei.Tatsumiekimae.891.1"
+        },
+        {
+          "distance": 0.307230383894387,
+          "poleId": "odpt.BusstopPole:Toei.Tatsumidanchi.887.2"
+        },
+        {
+          "distance": 0.48544998892584174,
+          "poleId": "odpt.BusstopPole:Toei.Tatsumiicchoume.890.2"
+        },
+        {
+          "distance": 0.2463931571097068,
+          "poleId": "odpt.BusstopPole:Toei.Tatsumiekimae.891.2"
+        },
+        {
+          "distance": 0.2289347928970491,
+          "poleId": "odpt.BusstopPole:Toei.Tatsumidanchi.887.3"
+        },
+        {
+          "distance": 0.21667236202056997,
+          "poleId": "odpt.BusstopPole:Toei.Tatsumiekimae.891.3"
+        },
+        {
+          "distance": 0.3120550047786942,
+          "poleId": "odpt.BusstopPole:Toei.Tatsumidanchi.887.4"
+        },
+        {
+          "distance": 0.2486036987542671,
+          "poleId": "odpt.BusstopPole:Toei.Tatsumiekimae.891.4"
+        }
+      ],
+      "id": "28"
+    },
+    {
+      "nearest": [],
+      "id": "29"
+    },
+    {
+      "nearest": [],
+      "id": "30"
+    },
+    {
+      "nearest": [],
+      "id": "31"
+    },
+    {
+      "nearest": [
+        {
+          "distance": 0.20279575994279317,
+          "poleId": "odpt.BusstopPole:SeibuBus.Tominnouensekonikku.30128.1"
+        },
+        {
+          "distance": 0.28459011693922903,
+          "poleId": "odpt.BusstopPole:SeibuBus.Sakaekouminkammae.30129.1"
+        },
+        {
+          "distance": 0.1876200841026848,
+          "poleId": "odpt.BusstopPole:SeibuBus.Niizasougougijutsukoukou.30153.1"
+        },
+        {
+          "distance": 0.41427774393493527,
+          "poleId": "odpt.BusstopPole:SeibuBus.Ooizumisakuragakuen.30154.1"
+        },
+        {
+          "distance": 0.22166860343462158,
+          "poleId": "odpt.BusstopPole:SeibuBus.Tominnouensekonikku.30128.2"
+        },
+        {
+          "distance": 0.26393623382167863,
+          "poleId": "odpt.BusstopPole:SeibuBus.Sakaekouminkammae.30129.2"
+        },
+        {
+          "distance": 0.19012672418565435,
+          "poleId": "odpt.BusstopPole:SeibuBus.Niizasougougijutsukoukou.30153.2"
+        },
+        {
+          "distance": 0.20988632580641778,
+          "poleId": "odpt.BusstopPole:SeibuBus.Tominnouensekonikku.30128.3"
+        },
+        {
+          "distance": 0.2252620582705567,
+          "poleId": "odpt.BusstopPole:SeibuBus.Tominnouensekonikku.30128.4"
+        }
+      ],
+      "id": "32"
+    },
+    {
+      "nearest": [],
+      "id": "33"
+    },
+    {
+      "nearest": [],
+      "id": "34"
+    },
+    {
+      "nearest": [],
+      "id": "35"
+    },
+    {
+      "nearest": [],
+      "id": "36"
+    },
+    {
+      "nearest": [],
+      "id": "37"
+    },
+    {
+      "nearest": [],
+      "id": "38"
+    },
+    {
+      "nearest": [],
+      "id": "39"
+    }
+  ],
+  "nearDistance": 0.5
+}
