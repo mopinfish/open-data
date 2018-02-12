@@ -1,9 +1,10 @@
 <template>
 <div>
-  <div class='example-5'>
+  <div class="input-field col s12">
     <select v-model='selected'>
-      <option v-for='option in options' v-bind:value='option'>
-        {{ option }}
+      <option value="" disabled selected>路線を選択してください</option>
+      <option v-for='option in options' v-bind:value='option["odpt:busroute"]'>
+        {{ option["dc:title"] }}
       </option>
     </select>
   </div>
@@ -33,7 +34,7 @@
         for(var i = 0; i < this.busInfos.length; ++i) {
           if (this.busInfos[i]['name'] == val) {
             this.addBusRoutes(this.busInfos[i]['routes'])
-            this.addBusStops(this.busInfos[i]['routes'])
+              this.addBusStops(this.busInfos[i]['routes'])
           }
         }
       },
@@ -41,7 +42,14 @@
     mounted() {
       this.loadMap();
       this.fetchBusStops();
+
+      // セレクトボックスをmaterializeで初期化
       $('select').material_select();
+      // select要素が変更されてもイベントをキャッチできるように、documentに対してイベントハンドラを登録
+      $(document).on('change', 'select',  (evt) => {
+        // evt.target(select要素)のvalueをselectedに代入することでV-Model経由で選択した値を反映する
+        this.selected = evt.target.value;
+      });
     },
     updated: function () {
       this.$nextTick(function () {
@@ -106,7 +114,8 @@
                 'name': this.busroutePatterns[i]['odpt:busroute'],
                 'routes': routes
               })
-              this.options.push(this.busroutePatterns[i]['odpt:busroute'])
+                //this.options.push(this.busroutePatterns[i]['odpt:busroute'])
+              this.options.push(this.busroutePatterns[i])
             }
             console.log('ADD')
           }, (error) => {
