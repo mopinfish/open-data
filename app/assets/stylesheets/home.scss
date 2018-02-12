@@ -60,3 +60,16 @@ th.active .arrow {
   border-right: 4px solid transparent;
   border-top: 4px solid #fff;
 }
+
+.preloader-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba( 255, 255, 255, 0.45 );
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
