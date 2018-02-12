@@ -25,6 +25,9 @@
   export default {
     mounted() {
       $(".button-collapse").sideNav();
+      $('#nav-mobile').click(function(e) {
+        $('#sidenav-overlay').trigger('click');
+      });
     }
   }
 </script>
