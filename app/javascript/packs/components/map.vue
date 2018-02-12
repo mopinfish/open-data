@@ -7,6 +7,8 @@
         {{ option }}
       </option>
     </select>
+    <label>aaaaaalize Disabled</label>
+    <span>selected : {{selected}}</span>
   </div>
 
   <div id='map' style='width: 800px; height: 600px;'>
