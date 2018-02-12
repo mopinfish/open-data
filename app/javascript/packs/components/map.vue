@@ -4,8 +4,8 @@
   <div class="input-field col s12">
     <select v-model='selected'>
       <option value="" disabled selected>路線を選択してください</option>
-      <option v-for='option in options' v-bind:value='option'>
-      {{ option }}
+      <option v-for='option in busRoutes' v-bind:value='option.busRouteId'>
+        {{ option.title }}
       </option>
     </select>
   </div>
@@ -43,7 +43,6 @@
       return {
         busPoles: [],
         busRoutes: [],
-        options: [],
         selected: '',
         map: null,
         routeLayerCount: 0,
@@ -148,7 +147,6 @@
 
           this.busPoles = busPoles.map(x => new BusPole(x));
           this.busRoutes = busRoutePatterns.map(x => new BusRoute(x, this.busPoles));
-          this.options = this.busRoutes.map(x => x.busRouteId);
           this.hidePreloader();
         }).catch((error) => {
           console.log(error);
