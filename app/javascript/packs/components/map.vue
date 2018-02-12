@@ -63,7 +63,7 @@
         for(var i = 0; i < this.busInfos.length; ++i) {
           if (this.busInfos[i]['name'] == val) {
             this.addBusRoutes(this.busInfos[i]['routes'])
-            this.addBusStops(this.busInfos[i]['routes'])
+              this.addBusStops(this.busInfos[i]['routes'])
           }
         }
       },
@@ -71,17 +71,20 @@
     mounted() {
       this.loadMap();
       this.fetchBusStops();
-        $(document).ready(function() {
-          $('select').material_select();
-        });
-      $('select').on('change', function() {
-          var event = new CustomEvent('change', {
-            detail: 'change',
-            bubbles: true
-          });
-          $(this).get(0).dispatchEvent(event);
-        });
-      },
+      // セレクトボックスをmaterializeで初期化
+      $('select').material_select();
+      // select要素が変更されてもイベントをキャッチできるように、documentに対してイベントハンドラを登録
+      $(document).on('change', 'select',  (evt) => {
+        // evt.target(select要素)のvalueをselectedに代入することでV-Model経由で選択した値を反映する
+        this.selected = evt.target.value;
+      });
+    },
+    updated: function () {
+      this.$nextTick(function () {
+        // ビュー全体が再レンダリングされた後にのみ実行されるコード
+        $('select').material_select();
+      })
+    },
     methods: {
       loadMap: function () {
         const mapToken = localStorage.getItem('map_token');
