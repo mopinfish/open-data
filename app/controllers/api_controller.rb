@@ -23,8 +23,6 @@ class ApiController < ApplicationController
     # https://api-tokyochallenge.odpt.org/api/v4/odpt:BusroutePattern?odpt:operator=odpt.Operator:KantoBus&acl:consumerKey=XXXXXXX
     # 新しくHTTPセッションを開始し、結果をresponseへ格納
     http = Net::HTTP.new(uri.host, uri.port)
-    # デバッグを標準出力に設定
-    http.set_debug_output($stderr)
     # SSL通信設定
     http.use_ssl = true
     # 接続時に待つ最大秒数を設定
