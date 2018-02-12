@@ -59,6 +59,14 @@
       }
     },
     watch: {
+      selected: function (val) {
+        for(var i = 0; i < this.busInfos.length; ++i) {
+          if (this.busInfos[i]['name'] == val) {
+            this.addBusRoutes(this.busInfos[i]['routes'])
+              this.addBusStops(this.busInfos[i]['routes'])
+          }
+        }
+      },
     },
     mounted() {
       this.loadMap();
