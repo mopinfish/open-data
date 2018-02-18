@@ -23,4 +23,8 @@ export default class {
     let query = 'odpt:operator'
     return axios.get(this.URL_BASE + resource + '?' + query + '=' + operator)
   }
+
+  static getNearestBusStops() {
+    return axios.get('/data/olympic2020nearest.json')
+  }
 }

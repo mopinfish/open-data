@@ -1,16 +1,27 @@
 <template>
 <div style="width: 100%; height: 100%; padding:0 10px;">
 
+  <p v-if="selectedPlace">
+    {{ selectedPlace }} 付近の路線
+  </p>
   <div class="input-field col s12">
     <select v-model='selected'>
       <option value="" disabled selected>路線を選択してください</option>
-      <option v-for='option in busRoutes' v-bind:value='option.busRouteId'>
-        {{ option.title }}
+      <option v-for='option in nearestBusRoutes' v-bind:value='option.busRouteId'>
+        {{ option.title }} ({{ selectedPlace }} 行)
       </option>
     </select>
   </div>
 
   <div id='map' style='height: 480px;'>
+  </div>
+  <div style='text-align: right; font-size: 80%; color: gray;'>
+    <div v-if="busstopUpdatedDate">
+      バス停情報最終更新: {{ busstopUpdatedDate | convertDate }}
+    </div>
+    <div v-if="busUpdatedDate">
+      バス情報最終更新: {{ busUpdatedDate | convertDate }}
+    </div>
   </div>
 
   <div class="preloader-background">
@@ -37,6 +48,7 @@
   import Bus from '../models/Bus.js';
   import BusPole from '../models/BusPole.js';
   import BusRoute from '../models/BusRoute.js';
+  import Utils from '../Utils.js';
 
   export default {
     data: function () {
@@ -48,6 +60,12 @@
         routeLayerCount: 0,
         busstopLayerCount: 0,
         busLayerCount: 0,
+        nearestBusPoles: [],
+        nearestBusRoutes: [],
+        nearestBusPoleLists: [],
+        busstopUpdatedDate: null,
+        busUpdatedDate: null,
+        selectedPlace: ''
       }
     },
     watch: {
@@ -55,11 +73,16 @@
         let busRoute = this.busRoutes.find(x => x.busRouteId == busRouteId)
         this.addBusRoutes(busRoute.routes)
         this.addBusStops(busRoute.routes)
-        this.adjustMap(busRoute.routes);
         this.fetchCurrentBus();
 
-        setInterval(this.fetchCurrentBus, 10000);
+        setInterval(this.fetchCurrentBus, 15000);
       },
+    },
+    filters: {
+      convertDate: function (date) {
+        if (!date) return '';
+        return Utils.dateToFormatString(date, '%YYYY%/%MM%/%DD% %HH%:%mm%:%ss%');
+      }
     },
     mounted() {
       this.loadMap();
@@ -132,6 +155,16 @@
             .addTo(this.map);
         });
 
+        // add event handler on olympic places.
+        this.map.on('click', 'olympic', (e) => {
+          const feature = e.features[0]
+              , properties = feature.properties
+          ;
+
+          this.filterBusRoutes(feature.properties.id);
+          this.selectedPlace = feature.properties.olympic2020place
+        });
+
         // Change the cursor to a pointer when the mouse is over the places layer.
         this.map.on('mouseenter', 'places', function () {
           this.getCanvas().style.cursor = 'pointer';
@@ -145,14 +178,20 @@
       fetchBusStops: function () {
         let busRoutePatternPromise = BusAPI.getBusRoutePatternsByOperator('odpt.Operator:Toei');
         let busPolePromise = BusAPI.getBusPolesByOperator('odpt.Operator:Toei');
+        let nearestBusStopsPromise = BusAPI.getNearestBusStops()
 
         Promise.all([busRoutePatternPromise, busPolePromise]).then((responses) => {
           let busRoutePatterns = responses[0].data;
           let busPoles = responses[1].data;
 
+          this.busstopUpdatedDate = new Date(busPoles[0]['dc:date']);
+
           this.busPoles = busPoles.map(x => new BusPole(x));
-          this.busRoutes = busRoutePatterns.map(x => new BusRoute(x, this.busPoles));
+          this.busRoutes = this.nearestBusRoutes = busRoutePatterns.map(x => new BusRoute(x, this.busPoles));
           this.hidePreloader();
+          return nearestBusStopsPromise;
+        }).then((response) => {
+          this.nearestBusPoleLists = response.data.nearestOlympics.map(x => x.nearest.map(y => y.poleId));
         }).catch((error) => {
           console.log(error);
         });
@@ -162,8 +201,10 @@
           let busInfos = response.data;
           let bus = busInfos.map(x => new Bus(x))
                             .find(x => x.busRoute == this.selected);
-          let pole = this.busPoles.find(x => x.busPoleId == bus.fromBusstopPole)
+          let pole = this.busPoles.find(x => x.busPoleId == bus.fromBusstopPole);
+
           this.addCurrentBus(pole, bus);
+          this.busUpdatedDate = new Date(busInfos[0]['dc:date']);
         }).catch((error) => {
           console.log(error);
         });
@@ -177,6 +218,18 @@
         let centerLatitude = coordsLatitude.reduce((x, y) => x + y) / coordsLatitude.length
 
         this.map.setCenter([centerLongitude, centerLatitude])
+      },
+      filterBusRoutes: function (id) {
+        let nearestBusPoleIds = this.nearestBusPoleLists[id - 1]
+
+        this.nearestBusRoutes = []
+        for (let busRoute of this.busRoutes) {
+          if (nearestBusPoleIds.filter(x => busRoute.onRouteByBusPoleId(x)).length > 0) {
+            this.nearestBusRoutes.push(busRoute)
+          }
+        }
+
+        this.nearestBusPoles = this.busPoles.filter(x => nearestBusPoleIds.indexOf(x.busPoleId) >= 0)
       },
       addCurrentBus: function (pole, bus) {
         let time = new Date(bus.fromBusstopPoleTime);
