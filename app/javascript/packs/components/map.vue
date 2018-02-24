@@ -163,7 +163,7 @@
           let bus = busInfos.map(x => new Bus(x))
                             .find(x => x.busRoute == this.selected);
           let pole = this.busPoles.find(x => x.busPoleId == bus.fromBusstopPole)
-          this.addCurrentBus(pole);
+          this.addCurrentBus(pole, bus);
         }).catch((error) => {
           console.log(error);
         });
@@ -178,16 +178,19 @@
 
         this.map.setCenter([centerLongitude, centerLatitude])
       },
-      addCurrentBus: function (pole) {
+      addCurrentBus: function (pole, bus) {
+        let time = new Date(bus.fromBusstopPoleTime);
+        let timeStr = time.getHours() + "時" + time.getMinutes() + "分" + time.getSeconds() + "秒";
         let features = [{
           'type': 'Feature',
           'properties': {
-            'description': '<p>' + pole.name + '</p>',
-            'icon': 'bus'
+            'description': "<strong>運行情報</strong><br>"
+              + "<p>" + pole.name + "を" + timeStr + "に出発しました</p>"
+            ,'icon': 'bus'
           },
           'geometry': {
-            'type': 'Point',
-            'coordinates': [pole.longitude, pole.latitude]
+            'type': 'Point'
+            ,'coordinates': [pole.longitude, pole.latitude]
           }
         }];
 
@@ -210,6 +213,24 @@
             'icon-allow-overlap': true
           }
         });
+
+        this.map.on('click', 'currentBus' + this.busLayerCount, (e) => {
+            var coordinates = e.features[0].geometry.coordinates.slice();
+            var description = e.features[0].properties.description;
+
+            // Ensure that if the map is zoomed out such that multiple
+            // copies of the feature are visible, the popup appears
+            // over the copy being pointed to.
+            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+            }
+
+            new mapboxgl.Popup()
+                .setLngLat(coordinates)
+                .setHTML(description)
+                .addTo(this.map);
+        });
+
       },
       addBusStops: function (routes) {
         let filterdRoutes = routes.filter(x => x !== undefined)
