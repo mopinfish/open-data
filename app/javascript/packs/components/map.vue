@@ -48,7 +48,6 @@
   import Bus from '../models/Bus.js';
   import BusPole from '../models/BusPole.js';
   import BusRoute from '../models/BusRoute.js';
-  import Utils from '../Utils.js';
 
   export default {
     data: function () {
@@ -81,7 +80,7 @@
     filters: {
       convertDate: function (date) {
         if (!date) return '';
-        return Utils.dateToFormatString(date, '%YYYY%/%MM%/%DD% %HH%:%mm%:%ss%');
+        return date.toLocaleString();
       }
     },
     mounted() {
