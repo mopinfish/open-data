@@ -8,4 +8,8 @@ export default class {
       )
     );
   }
+
+  onRouteByBusPoleId(poleId) {
+    return this.routes.filter(x => x !== undefined).map(x => x.busPoleId).indexOf(poleId) >= 0
+  }
 }
