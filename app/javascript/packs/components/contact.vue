@@ -1,7 +1,6 @@
 <template>
 <div>
-  <!-- 内容はお好みで -->
-  <p>If you want to contact me, you send mail to below address.</p>
-  <p>test@example.com</p>
+  <p>本サービスに関するご質問は下記までご連絡ください。</p>
+  <p>mopinfish@gmail.com</p>
 </div>
 </template>
